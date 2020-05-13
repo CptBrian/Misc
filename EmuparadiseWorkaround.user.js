@@ -2,7 +2,7 @@
 // @name         EmuParadise Download Workaround 2.1
 // @version      2.1
 // @description  Replaces the download button link with a working one
-// @author       Eptun
+// @author       Eptun & CptBrian
 // @match        https://www.emuparadise.me/*/*/*
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @grant        none
