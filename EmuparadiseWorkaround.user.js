@@ -12,6 +12,8 @@
     'use strict';
 
     var id = ((document.URL).split("/"))[5];
+    $(".download-link").prepend(`<a target="_blank" href="/may/Mags/get-download.php?gid=`+id+`&test=true" title="Download using the workaround script">Download using the workaround script</a><br><br>`);
+    $(".download-link").prepend(`<a target="_blank" href="/Mags/get-download.php?gid=`+id+`&test=true" title="Download using the workaround script">Download using the workaround script</a><br><br>`);
     $(".download-link").prepend(`<a target="_blank" href="/Guides/get-download.php?gid=`+id+`&test=true" title="Download using the workaround script">Download using the workaround script</a><br><br>`);
     $(".download-link").prepend(`<a target="_blank" href="/roms/get-download.php?gid=`+id+`&test=true" title="Download using the workaround script">Download using the workaround script</a><br><br>`);
 })();
