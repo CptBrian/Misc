@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         EmuParadise Download Workaround 2.1
-// @version      2.1
+// @name         EmuParadise Download Workaround 2
+// @version      2
 // @description  Replaces the download button link with a working one
 // @author       Eptun & CptBrian
 // @match        https://www.emuparadise.me/*/*/*
