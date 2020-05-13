@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         EmuParadise download script
-// @version      1
+// @name         EmuParadise Download Workaround 3
+// @version      3
 // @description  Downloads games directly after clicking their name
-// @author       Eptun
+// @author       Eptun & CptBrian
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @match        https://www.emuparadise.me/*/*/*
 
