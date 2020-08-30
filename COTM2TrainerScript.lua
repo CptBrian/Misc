@@ -1501,8 +1501,7 @@ function CETrainer_RoomReloadClick(sender)
   local mr=AddressList.getMemoryRecordByDescription('RoomReloadState')
   local mr2=AddressList.getMemoryRecordByDescription('BossRushProgress')
   local mr3=AddressList.getMemoryRecordByDescription('PlayerControl')
-  local mr4=AddressList.getMemoryRecordByDescription('SaveSlot')
-  if((mr2.Value=="0" and mr4.Value=="32") or mr2.Value>"20") then
+  if((mr2.Value=="0" and saveslot.Value=="32") or mr2.Value>"20") then
     mr2.Value=1 --Prevent value from rolling over
   end
   mr.Value=4 --Starts room reload
