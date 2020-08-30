@@ -2255,20 +2255,408 @@ function CETrainer_CasualClick(sender)
 end
 
 function CETrainer_PowerGloveLockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerGlove')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    glove.Value=0
+  end
+  if(saveslot.Value=="1") then
+    glove2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    glove3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    glove4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    glove5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    glove6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    glove7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    glove8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    glove9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    glove10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    glove11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    glove12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    glove13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    glove14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    glove15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    glove16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    glove17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    glove18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    glove19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    glove20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    glove21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    glove22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    glove23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    glove24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    glove25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    glove26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    glove27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    glove28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    glove29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    glove30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    glove31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    glove32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    glove33.Value=0
+  end
 end
 function CETrainer_PowerGloveUnlockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerGlove')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    glove.Value=1
+  end
+  if(saveslot.Value=="1") then
+    glove2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    glove3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    glove4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    glove5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    glove6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    glove7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    glove8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    glove9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    glove10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    glove11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    glove12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    glove13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    glove14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    glove15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    glove16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    glove17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    glove18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    glove19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    glove20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    glove21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    glove22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    glove23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    glove24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    glove25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    glove26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    glove27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    glove28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    glove29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    glove30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    glove31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    glove32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    glove33.Value=1
+  end
 end
 function CETrainer_ArmorLockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Armor')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    armor.Value=0
+  end
+  if(saveslot.Value=="1") then
+    armor2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    armor3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    armor4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    armor5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    armor6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    armor7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    armor8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    armor9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    armor10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    armor11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    armor12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    armor13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    armor14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    armor15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    armor16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    armor17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    armor18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    armor19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    armor20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    armor21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    armor22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    armor23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    armor24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    armor25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    armor26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    armor27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    armor28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    armor29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    armor30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    armor31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    armor32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    armor33.Value=0
+  end
 end
 function CETrainer_ArmorUnlockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Armor')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    armor.Value=1
+  end
+  if(saveslot.Value=="1") then
+    armor2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    armor3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    armor4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    armor5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    armor6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    armor7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    armor8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    armor9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    armor10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    armor11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    armor12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    armor13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    armor14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    armor15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    armor16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    armor17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    armor18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    armor19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    armor20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    armor21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    armor22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    armor23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    armor24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    armor25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    armor26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    armor27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    armor28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    armor29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    armor30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    armor31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    armor32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    armor33.Value=1
+  end
 end
 
 function CETrainer_SRDCClick(sender)
@@ -3639,6 +4027,72 @@ char30=AddressList.getMemoryRecordByDescription('Character Slot 30')
 char31=AddressList.getMemoryRecordByDescription('Character Slot 31')
 char32=AddressList.getMemoryRecordByDescription('Character Slot 32')
 char33=AddressList.getMemoryRecordByDescription('Character BR')
+glove=AddressList.getMemoryRecordByDescription('PowerGlove')
+glove2=AddressList.getMemoryRecordByDescription('PowerGlove Slot 2')
+glove3=AddressList.getMemoryRecordByDescription('PowerGlove Slot 3')
+glove4=AddressList.getMemoryRecordByDescription('PowerGlove Slot 4')
+glove5=AddressList.getMemoryRecordByDescription('PowerGlove Slot 5')
+glove6=AddressList.getMemoryRecordByDescription('PowerGlove Slot 6')
+glove7=AddressList.getMemoryRecordByDescription('PowerGlove Slot 7')
+glove8=AddressList.getMemoryRecordByDescription('PowerGlove Slot 8')
+glove9=AddressList.getMemoryRecordByDescription('PowerGlove Slot 9')
+glove10=AddressList.getMemoryRecordByDescription('PowerGlove Slot 10')
+glove11=AddressList.getMemoryRecordByDescription('PowerGlove Slot 11')
+glove12=AddressList.getMemoryRecordByDescription('PowerGlove Slot 12')
+glove13=AddressList.getMemoryRecordByDescription('PowerGlove Slot 13')
+glove14=AddressList.getMemoryRecordByDescription('PowerGlove Slot 14')
+glove15=AddressList.getMemoryRecordByDescription('PowerGlove Slot 15')
+glove16=AddressList.getMemoryRecordByDescription('PowerGlove Slot 16')
+glove17=AddressList.getMemoryRecordByDescription('PowerGlove Slot 17')
+glove18=AddressList.getMemoryRecordByDescription('PowerGlove Slot 18')
+glove19=AddressList.getMemoryRecordByDescription('PowerGlove Slot 19')
+glove20=AddressList.getMemoryRecordByDescription('PowerGlove Slot 20')
+glove21=AddressList.getMemoryRecordByDescription('PowerGlove Slot 21')
+glove22=AddressList.getMemoryRecordByDescription('PowerGlove Slot 22')
+glove23=AddressList.getMemoryRecordByDescription('PowerGlove Slot 23')
+glove24=AddressList.getMemoryRecordByDescription('PowerGlove Slot 24')
+glove25=AddressList.getMemoryRecordByDescription('PowerGlove Slot 25')
+glove26=AddressList.getMemoryRecordByDescription('PowerGlove Slot 26')
+glove27=AddressList.getMemoryRecordByDescription('PowerGlove Slot 27')
+glove28=AddressList.getMemoryRecordByDescription('PowerGlove Slot 28')
+glove29=AddressList.getMemoryRecordByDescription('PowerGlove Slot 29')
+glove30=AddressList.getMemoryRecordByDescription('PowerGlove Slot 30')
+glove31=AddressList.getMemoryRecordByDescription('PowerGlove Slot 31')
+glove32=AddressList.getMemoryRecordByDescription('PowerGlove Slot 32')
+glove33=AddressList.getMemoryRecordByDescription('BR Upgrades Power Glove')
+armor=AddressList.getMemoryRecordByDescription('Armor')
+armor2=AddressList.getMemoryRecordByDescription('Armor Slot 2')
+armor3=AddressList.getMemoryRecordByDescription('Armor Slot 3')
+armor4=AddressList.getMemoryRecordByDescription('Armor Slot 4')
+armor5=AddressList.getMemoryRecordByDescription('Armor Slot 5')
+armor6=AddressList.getMemoryRecordByDescription('Armor Slot 6')
+armor7=AddressList.getMemoryRecordByDescription('Armor Slot 7')
+armor8=AddressList.getMemoryRecordByDescription('Armor Slot 8')
+armor9=AddressList.getMemoryRecordByDescription('Armor Slot 9')
+armor10=AddressList.getMemoryRecordByDescription('Armor Slot 10')
+armor11=AddressList.getMemoryRecordByDescription('Armor Slot 11')
+armor12=AddressList.getMemoryRecordByDescription('Armor Slot 12')
+armor13=AddressList.getMemoryRecordByDescription('Armor Slot 13')
+armor14=AddressList.getMemoryRecordByDescription('Armor Slot 14')
+armor15=AddressList.getMemoryRecordByDescription('Armor Slot 15')
+armor16=AddressList.getMemoryRecordByDescription('Armor Slot 16')
+armor17=AddressList.getMemoryRecordByDescription('Armor Slot 17')
+armor18=AddressList.getMemoryRecordByDescription('Armor Slot 18')
+armor19=AddressList.getMemoryRecordByDescription('Armor Slot 19')
+armor20=AddressList.getMemoryRecordByDescription('Armor Slot 20')
+armor21=AddressList.getMemoryRecordByDescription('Armor Slot 21')
+armor22=AddressList.getMemoryRecordByDescription('Armor Slot 22')
+armor23=AddressList.getMemoryRecordByDescription('Armor Slot 23')
+armor24=AddressList.getMemoryRecordByDescription('Armor Slot 24')
+armor25=AddressList.getMemoryRecordByDescription('Armor Slot 25')
+armor26=AddressList.getMemoryRecordByDescription('Armor Slot 26')
+armor27=AddressList.getMemoryRecordByDescription('Armor Slot 27')
+armor28=AddressList.getMemoryRecordByDescription('Armor Slot 28')
+armor29=AddressList.getMemoryRecordByDescription('Armor Slot 29')
+armor30=AddressList.getMemoryRecordByDescription('Armor Slot 30')
+armor31=AddressList.getMemoryRecordByDescription('Armor Slot 31')
+armor32=AddressList.getMemoryRecordByDescription('Armor Slot 32')
+armor33=AddressList.getMemoryRecordByDescription('BR Upgrades Armor')
 
 getAutoAttachList().add("game.exe")
 gPlaySoundOnAction=false
