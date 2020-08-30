@@ -1,3 +1,7 @@
+--THIS SCRIPT ONLY CONTAINS A PORTION OF TRAINER, particularly the actions it performs when interacted with.
+--It doesn't show every pointer it uses(it grabs most from my Cheat Table by name) and it doesn't store the Trainer's interface elements.
+--Trainer, pointers and script by CptBrian
+
 --mr. is short for memrec, but needs to be defined
 --mr.Active=sender.Checked --toggles freeze for checkboxes
 
@@ -2216,6 +2220,9 @@ function CETrainer_DiscussClick(sender)
 end
 function CETrainer_CETrainer_MapsClick(sender)
   shellExecute('https://www.speedrun.com/bscotm/guide/1yzyn')
+end
+function CETrainer_CETrainer_ScriptClick(sender)
+  shellExecute('https://github.com/CptBrian/Misc/blob/master/COTM2TrainerScript.lua')
 end
 
 function CETrainer_ZClick(sender)
