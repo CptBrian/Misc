@@ -1343,13 +1343,76 @@ function CETrainer_UnlimitedWPClick(sender)
 end
 
 function CETrainer_CharacterFreezeClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Character')
-  if mr.Active then
-    mr.Active=false
+  if char.Active then
+    char.Active=false
+    char2.Active=false
+    char3.Active=false
+    char4.Active=false
+    char5.Active=false
+    char6.Active=false
+    char7.Active=false
+    char8.Active=false
+    char9.Active=false
+    char10.Active=false
+    char11.Active=false
+    char12.Active=false
+    char13.Active=false
+    char14.Active=false
+    char15.Active=false
+    char16.Active=false
+    char17.Active=false
+    char18.Active=false
+    char19.Active=false
+    char20.Active=false
+    char21.Active=false
+    char22.Active=false
+    char23.Active=false
+    char24.Active=false
+    char25.Active=false
+    char26.Active=false
+    char27.Active=false
+    char28.Active=false
+    char29.Active=false
+    char30.Active=false
+    char31.Active=false
+    char32.Active=false
+    char33.Active=false
     control_setCaption(CETrainer_CharacterFreezeLabel, "Inactive")
     CETrainer.CharacterFreezeLabel.Font.Color=0x999999
   else
-    mr.Active=true
+    char.Active=true
+    char2.Active=true
+    char3.Active=true
+    char4.Active=true
+    char5.Active=true
+    char6.Active=true
+    char7.Active=true
+    char8.Active=true
+    char9.Active=true
+    char10.Active=true
+    char11.Active=true
+    char12.Active=true
+    char13.Active=true
+    char14.Active=true
+    char15.Active=true
+    char16.Active=true
+    char17.Active=true
+    char18.Active=true
+    char19.Active=true
+    char20.Active=true
+    char21.Active=true
+    char22.Active=true
+    char23.Active=true
+    char24.Active=true
+    char25.Active=true
+    char26.Active=true
+    char27.Active=true
+    char28.Active=true
+    char29.Active=true
+    char30.Active=true
+    char31.Active=true
+    char32.Active=true
+    char33.Active=true
     control_setCaption(CETrainer_CharacterFreezeLabel, "ACTIVE")
     CETrainer.CharacterFreezeLabel.Font.Color=0x00BB66
   end
@@ -2225,93 +2288,812 @@ function CETrainer_ScriptClick(sender)
 end
 
 function CETrainer_ZClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Character')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    char.Value=0
+  end
+  if(saveslot.Value=="1") then
+    char2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    char3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    char4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    char5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    char6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    char7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    char8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    char9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    char10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    char11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    char12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    char13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    char14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    char15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    char16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    char17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    char18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    char19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    char20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    char21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    char22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    char23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    char24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    char25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    char26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    char27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    char28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    char29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    char30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    char31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    char32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    char33.Value=0
+  end
 end
 function CETrainer_MClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Character')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    char.Value=1
+  end
+  if(saveslot.Value=="1") then
+    char2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    char3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    char4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    char5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    char6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    char7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    char8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    char9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    char10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    char11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    char12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    char13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    char14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    char15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    char16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    char17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    char18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    char19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    char20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    char21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    char22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    char23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    char24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    char25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    char26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    char27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    char28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    char29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    char30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    char31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    char32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    char33.Value=1
+  end
 end
 function CETrainer_AClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Character')
-  mr.Value=2
+  if(saveslot.Value=="0") then
+    char.Value=2
+  end
+  if(saveslot.Value=="1") then
+    char2.Value=2
+  end
+  if(saveslot.Value=="2") then
+    char3.Value=2
+  end
+  if(saveslot.Value=="3") then
+    char4.Value=2
+  end
+  if(saveslot.Value=="4") then
+    char5.Value=2
+  end
+  if(saveslot.Value=="5") then
+    char6.Value=2
+  end
+  if(saveslot.Value=="6") then
+    char7.Value=2
+  end
+  if(saveslot.Value=="7") then
+    char8.Value=2
+  end
+  if(saveslot.Value=="8") then
+    char9.Value=2
+  end
+  if(saveslot.Value=="9") then
+    char10.Value=2
+  end
+  if(saveslot.Value=="10") then
+    char11.Value=2
+  end
+  if(saveslot.Value=="11") then
+    char12.Value=2
+  end
+  if(saveslot.Value=="12") then
+    char13.Value=2
+  end
+  if(saveslot.Value=="13") then
+    char14.Value=2
+  end
+  if(saveslot.Value=="14") then
+    char15.Value=2
+  end
+  if(saveslot.Value=="15") then
+    char16.Value=2
+  end
+  if(saveslot.Value=="16") then
+    char17.Value=2
+  end
+  if(saveslot.Value=="17") then
+    char18.Value=2
+  end
+  if(saveslot.Value=="18") then
+    char19.Value=2
+  end
+  if(saveslot.Value=="19") then
+    char20.Value=2
+  end
+  if(saveslot.Value=="20") then
+    char21.Value=2
+  end
+  if(saveslot.Value=="21") then
+    char22.Value=2
+  end
+  if(saveslot.Value=="22") then
+    char23.Value=2
+  end
+  if(saveslot.Value=="23") then
+    char24.Value=2
+  end
+  if(saveslot.Value=="24") then
+    char25.Value=2
+  end
+  if(saveslot.Value=="25") then
+    char26.Value=2
+  end
+  if(saveslot.Value=="26") then
+    char27.Value=2
+  end
+  if(saveslot.Value=="27") then
+    char28.Value=2
+  end
+  if(saveslot.Value=="28") then
+    char29.Value=2
+  end
+  if(saveslot.Value=="29") then
+    char30.Value=2
+  end
+  if(saveslot.Value=="30") then
+    char31.Value=2
+  end
+  if(saveslot.Value=="31") then
+    char32.Value=2
+  end
+  if(saveslot.Value=="32") then
+    char33.Value=2
+  end
 end
 function CETrainer_GClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Character')
-  mr.Value=3
+  if(saveslot.Value=="0") then
+    char.Value=3
+  end
+  if(saveslot.Value=="1") then
+    char2.Value=3
+  end
+  if(saveslot.Value=="2") then
+    char3.Value=3
+  end
+  if(saveslot.Value=="3") then
+    char4.Value=3
+  end
+  if(saveslot.Value=="4") then
+    char5.Value=3
+  end
+  if(saveslot.Value=="5") then
+    char6.Value=3
+  end
+  if(saveslot.Value=="6") then
+    char7.Value=3
+  end
+  if(saveslot.Value=="7") then
+    char8.Value=3
+  end
+  if(saveslot.Value=="8") then
+    char9.Value=3
+  end
+  if(saveslot.Value=="9") then
+    char10.Value=3
+  end
+  if(saveslot.Value=="10") then
+    char11.Value=3
+  end
+  if(saveslot.Value=="11") then
+    char12.Value=3
+  end
+  if(saveslot.Value=="12") then
+    char13.Value=3
+  end
+  if(saveslot.Value=="13") then
+    char14.Value=3
+  end
+  if(saveslot.Value=="14") then
+    char15.Value=3
+  end
+  if(saveslot.Value=="15") then
+    char16.Value=3
+  end
+  if(saveslot.Value=="16") then
+    char17.Value=3
+  end
+  if(saveslot.Value=="17") then
+    char18.Value=3
+  end
+  if(saveslot.Value=="18") then
+    char19.Value=3
+  end
+  if(saveslot.Value=="19") then
+    char20.Value=3
+  end
+  if(saveslot.Value=="20") then
+    char21.Value=3
+  end
+  if(saveslot.Value=="21") then
+    char22.Value=3
+  end
+  if(saveslot.Value=="22") then
+    char23.Value=3
+  end
+  if(saveslot.Value=="23") then
+    char24.Value=3
+  end
+  if(saveslot.Value=="24") then
+    char25.Value=3
+  end
+  if(saveslot.Value=="25") then
+    char26.Value=3
+  end
+  if(saveslot.Value=="26") then
+    char27.Value=3
+  end
+  if(saveslot.Value=="27") then
+    char28.Value=3
+  end
+  if(saveslot.Value=="28") then
+    char29.Value=3
+  end
+  if(saveslot.Value=="29") then
+    char30.Value=3
+  end
+  if(saveslot.Value=="30") then
+    char31.Value=3
+  end
+  if(saveslot.Value=="31") then
+    char32.Value=3
+  end
+  if(saveslot.Value=="32") then
+    char33.Value=3
+  end
 end
 function CETrainer_DClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Character')
-  mr.Value=4
+  if(saveslot.Value=="0") then
+    char.Value=4
+  end
+  if(saveslot.Value=="1") then
+    char2.Value=4
+  end
+  if(saveslot.Value=="2") then
+    char3.Value=4
+  end
+  if(saveslot.Value=="3") then
+    char4.Value=4
+  end
+  if(saveslot.Value=="4") then
+    char5.Value=4
+  end
+  if(saveslot.Value=="5") then
+    char6.Value=4
+  end
+  if(saveslot.Value=="6") then
+    char7.Value=4
+  end
+  if(saveslot.Value=="7") then
+    char8.Value=4
+  end
+  if(saveslot.Value=="8") then
+    char9.Value=4
+  end
+  if(saveslot.Value=="9") then
+    char10.Value=4
+  end
+  if(saveslot.Value=="10") then
+    char11.Value=4
+  end
+  if(saveslot.Value=="11") then
+    char12.Value=4
+  end
+  if(saveslot.Value=="12") then
+    char13.Value=4
+  end
+  if(saveslot.Value=="13") then
+    char14.Value=4
+  end
+  if(saveslot.Value=="14") then
+    char15.Value=4
+  end
+  if(saveslot.Value=="15") then
+    char16.Value=4
+  end
+  if(saveslot.Value=="16") then
+    char17.Value=4
+  end
+  if(saveslot.Value=="17") then
+    char18.Value=4
+  end
+  if(saveslot.Value=="18") then
+    char19.Value=4
+  end
+  if(saveslot.Value=="19") then
+    char20.Value=4
+  end
+  if(saveslot.Value=="20") then
+    char21.Value=4
+  end
+  if(saveslot.Value=="21") then
+    char22.Value=4
+  end
+  if(saveslot.Value=="22") then
+    char23.Value=4
+  end
+  if(saveslot.Value=="23") then
+    char24.Value=4
+  end
+  if(saveslot.Value=="24") then
+    char25.Value=4
+  end
+  if(saveslot.Value=="25") then
+    char26.Value=4
+  end
+  if(saveslot.Value=="26") then
+    char27.Value=4
+  end
+  if(saveslot.Value=="27") then
+    char28.Value=4
+  end
+  if(saveslot.Value=="28") then
+    char29.Value=4
+  end
+  if(saveslot.Value=="29") then
+    char30.Value=4
+  end
+  if(saveslot.Value=="30") then
+    char31.Value=4
+  end
+  if(saveslot.Value=="31") then
+    char32.Value=4
+  end
+  if(saveslot.Value=="32") then
+    char33.Value=4
+  end
 end
 function CETrainer_RClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Character')
-  mr.Value=5
+  if(saveslot.Value=="0") then
+    char.Value=5
+  end
+  if(saveslot.Value=="1") then
+    char2.Value=5
+  end
+  if(saveslot.Value=="2") then
+    char3.Value=5
+  end
+  if(saveslot.Value=="3") then
+    char4.Value=5
+  end
+  if(saveslot.Value=="4") then
+    char5.Value=5
+  end
+  if(saveslot.Value=="5") then
+    char6.Value=5
+  end
+  if(saveslot.Value=="6") then
+    char7.Value=5
+  end
+  if(saveslot.Value=="7") then
+    char8.Value=5
+  end
+  if(saveslot.Value=="8") then
+    char9.Value=5
+  end
+  if(saveslot.Value=="9") then
+    char10.Value=5
+  end
+  if(saveslot.Value=="10") then
+    char11.Value=5
+  end
+  if(saveslot.Value=="11") then
+    char12.Value=5
+  end
+  if(saveslot.Value=="12") then
+    char13.Value=5
+  end
+  if(saveslot.Value=="13") then
+    char14.Value=5
+  end
+  if(saveslot.Value=="14") then
+    char15.Value=5
+  end
+  if(saveslot.Value=="15") then
+    char16.Value=5
+  end
+  if(saveslot.Value=="16") then
+    char17.Value=5
+  end
+  if(saveslot.Value=="17") then
+    char18.Value=5
+  end
+  if(saveslot.Value=="18") then
+    char19.Value=5
+  end
+  if(saveslot.Value=="19") then
+    char20.Value=5
+  end
+  if(saveslot.Value=="20") then
+    char21.Value=5
+  end
+  if(saveslot.Value=="21") then
+    char22.Value=5
+  end
+  if(saveslot.Value=="22") then
+    char23.Value=5
+  end
+  if(saveslot.Value=="23") then
+    char24.Value=5
+  end
+  if(saveslot.Value=="24") then
+    char25.Value=5
+  end
+  if(saveslot.Value=="25") then
+    char26.Value=5
+  end
+  if(saveslot.Value=="26") then
+    char27.Value=5
+  end
+  if(saveslot.Value=="27") then
+    char28.Value=5
+  end
+  if(saveslot.Value=="28") then
+    char29.Value=5
+  end
+  if(saveslot.Value=="29") then
+    char30.Value=5
+  end
+  if(saveslot.Value=="30") then
+    char31.Value=5
+  end
+  if(saveslot.Value=="31") then
+    char32.Value=5
+  end
+  if(saveslot.Value=="32") then
+    char33.Value=5
+  end
 end
 function CETrainer_HClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Character')
-  mr.Value=6
+  if(saveslot.Value=="0") then
+    char.Value=6
+  end
+  if(saveslot.Value=="1") then
+    char2.Value=6
+  end
+  if(saveslot.Value=="2") then
+    char3.Value=6
+  end
+  if(saveslot.Value=="3") then
+    char4.Value=6
+  end
+  if(saveslot.Value=="4") then
+    char5.Value=6
+  end
+  if(saveslot.Value=="5") then
+    char6.Value=6
+  end
+  if(saveslot.Value=="6") then
+    char7.Value=6
+  end
+  if(saveslot.Value=="7") then
+    char8.Value=6
+  end
+  if(saveslot.Value=="8") then
+    char9.Value=6
+  end
+  if(saveslot.Value=="9") then
+    char10.Value=6
+  end
+  if(saveslot.Value=="10") then
+    char11.Value=6
+  end
+  if(saveslot.Value=="11") then
+    char12.Value=6
+  end
+  if(saveslot.Value=="12") then
+    char13.Value=6
+  end
+  if(saveslot.Value=="13") then
+    char14.Value=6
+  end
+  if(saveslot.Value=="14") then
+    char15.Value=6
+  end
+  if(saveslot.Value=="15") then
+    char16.Value=6
+  end
+  if(saveslot.Value=="16") then
+    char17.Value=6
+  end
+  if(saveslot.Value=="17") then
+    char18.Value=6
+  end
+  if(saveslot.Value=="18") then
+    char19.Value=6
+  end
+  if(saveslot.Value=="19") then
+    char20.Value=6
+  end
+  if(saveslot.Value=="20") then
+    char21.Value=6
+  end
+  if(saveslot.Value=="21") then
+    char22.Value=6
+  end
+  if(saveslot.Value=="22") then
+    char23.Value=6
+  end
+  if(saveslot.Value=="23") then
+    char24.Value=6
+  end
+  if(saveslot.Value=="24") then
+    char25.Value=6
+  end
+  if(saveslot.Value=="25") then
+    char26.Value=6
+  end
+  if(saveslot.Value=="26") then
+    char27.Value=6
+  end
+  if(saveslot.Value=="27") then
+    char28.Value=6
+  end
+  if(saveslot.Value=="28") then
+    char29.Value=6
+  end
+  if(saveslot.Value=="29") then
+    char30.Value=6
+  end
+  if(saveslot.Value=="30") then
+    char31.Value=6
+  end
+  if(saveslot.Value=="31") then
+    char32.Value=6
+  end
+  if(saveslot.Value=="32") then
+    char33.Value=6
+  end
 end
 function CETrainer_SClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('Character')
-  mr.Value=7
-end
-
-function CETrainer_U1Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupHP1')
-  mr.Value=1
-end
-function CETrainer_L1Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupHP1')
-  mr.Value=0
-end
-function CETrainer_U2Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupHP2')
-  mr.Value=1
-end
-function CETrainer_L2Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupHP2')
-  mr.Value=0
-end
-function CETrainer_U3Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupHP3')
-  mr.Value=1
-end
-function CETrainer_L3Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupHP3')
-  mr.Value=0
-end
-function CETrainer_U4Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupHP4')
-  mr.Value=1
-end
-function CETrainer_L4Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupHP4')
-  mr.Value=0
-end
-function CETrainer_U5Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupWP1')
-  mr.Value=1
-end
-function CETrainer_L5Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupWP1')
-  mr.Value=0
-end
-function CETrainer_U6Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupWP2')
-  mr.Value=1
-end
-function CETrainer_L6Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupWP2')
-  mr.Value=0
-end
-function CETrainer_U7Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupWP3')
-  mr.Value=1
-end
-function CETrainer_L7Click(sender)
-  local mr=AddressList.getMemoryRecordByDescription('PowerupWP3')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    char.Value=7
+  end
+  if(saveslot.Value=="1") then
+    char2.Value=7
+  end
+  if(saveslot.Value=="2") then
+    char3.Value=7
+  end
+  if(saveslot.Value=="3") then
+    char4.Value=7
+  end
+  if(saveslot.Value=="4") then
+    char5.Value=7
+  end
+  if(saveslot.Value=="5") then
+    char6.Value=7
+  end
+  if(saveslot.Value=="6") then
+    char7.Value=7
+  end
+  if(saveslot.Value=="7") then
+    char8.Value=7
+  end
+  if(saveslot.Value=="8") then
+    char9.Value=7
+  end
+  if(saveslot.Value=="9") then
+    char10.Value=7
+  end
+  if(saveslot.Value=="10") then
+    char11.Value=7
+  end
+  if(saveslot.Value=="11") then
+    char12.Value=7
+  end
+  if(saveslot.Value=="12") then
+    char13.Value=7
+  end
+  if(saveslot.Value=="13") then
+    char14.Value=7
+  end
+  if(saveslot.Value=="14") then
+    char15.Value=7
+  end
+  if(saveslot.Value=="15") then
+    char16.Value=7
+  end
+  if(saveslot.Value=="16") then
+    char17.Value=7
+  end
+  if(saveslot.Value=="17") then
+    char18.Value=7
+  end
+  if(saveslot.Value=="18") then
+    char19.Value=7
+  end
+  if(saveslot.Value=="19") then
+    char20.Value=7
+  end
+  if(saveslot.Value=="20") then
+    char21.Value=7
+  end
+  if(saveslot.Value=="21") then
+    char22.Value=7
+  end
+  if(saveslot.Value=="22") then
+    char23.Value=7
+  end
+  if(saveslot.Value=="23") then
+    char24.Value=7
+  end
+  if(saveslot.Value=="24") then
+    char25.Value=7
+  end
+  if(saveslot.Value=="25") then
+    char26.Value=7
+  end
+  if(saveslot.Value=="26") then
+    char27.Value=7
+  end
+  if(saveslot.Value=="27") then
+    char28.Value=7
+  end
+  if(saveslot.Value=="28") then
+    char29.Value=7
+  end
+  if(saveslot.Value=="29") then
+    char30.Value=7
+  end
+  if(saveslot.Value=="30") then
+    char31.Value=7
+  end
+  if(saveslot.Value=="31") then
+    char32.Value=7
+  end
+  if(saveslot.Value=="32") then
+    char33.Value=7
+  end
 end
 
 function CETrainer_SaveCheckpointClick(sender)
@@ -2826,6 +3608,39 @@ hpf261=AddressList.getMemoryRecordByDescription('shp Slot 30')
 hpf262=AddressList.getMemoryRecordByDescription('shp Slot 31')
 hpf263=AddressList.getMemoryRecordByDescription('shp Slot 32')
 hpf264=AddressList.getMemoryRecordByDescription('Shadow Zangetsu HP BR')
+char=AddressList.getMemoryRecordByDescription('Character')
+char2=AddressList.getMemoryRecordByDescription('Character Slot 2')
+char3=AddressList.getMemoryRecordByDescription('Character Slot 3')
+char4=AddressList.getMemoryRecordByDescription('Character Slot 4')
+char5=AddressList.getMemoryRecordByDescription('Character Slot 5')
+char6=AddressList.getMemoryRecordByDescription('Character Slot 6')
+char7=AddressList.getMemoryRecordByDescription('Character Slot 7')
+char8=AddressList.getMemoryRecordByDescription('Character Slot 8')
+char9=AddressList.getMemoryRecordByDescription('Character Slot 9')
+char10=AddressList.getMemoryRecordByDescription('Character Slot 10')
+char11=AddressList.getMemoryRecordByDescription('Character Slot 11')
+char12=AddressList.getMemoryRecordByDescription('Character Slot 12')
+char13=AddressList.getMemoryRecordByDescription('Character Slot 13')
+char14=AddressList.getMemoryRecordByDescription('Character Slot 14')
+char15=AddressList.getMemoryRecordByDescription('Character Slot 15')
+char16=AddressList.getMemoryRecordByDescription('Character Slot 16')
+char17=AddressList.getMemoryRecordByDescription('Character Slot 17')
+char18=AddressList.getMemoryRecordByDescription('Character Slot 18')
+char19=AddressList.getMemoryRecordByDescription('Character Slot 19')
+char20=AddressList.getMemoryRecordByDescription('Character Slot 20')
+char21=AddressList.getMemoryRecordByDescription('Character Slot 21')
+char22=AddressList.getMemoryRecordByDescription('Character Slot 22')
+char23=AddressList.getMemoryRecordByDescription('Character Slot 23')
+char24=AddressList.getMemoryRecordByDescription('Character Slot 24')
+char25=AddressList.getMemoryRecordByDescription('Character Slot 25')
+char26=AddressList.getMemoryRecordByDescription('Character Slot 26')
+char27=AddressList.getMemoryRecordByDescription('Character Slot 27')
+char28=AddressList.getMemoryRecordByDescription('Character Slot 28')
+char29=AddressList.getMemoryRecordByDescription('Character Slot 29')
+char30=AddressList.getMemoryRecordByDescription('Character Slot 30')
+char31=AddressList.getMemoryRecordByDescription('Character Slot 31')
+char32=AddressList.getMemoryRecordByDescription('Character Slot 32')
+char33=AddressList.getMemoryRecordByDescription('Character BR')
 
 getAutoAttachList().add("game.exe")
 gPlaySoundOnAction=false
