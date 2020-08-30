@@ -23,184 +23,3625 @@
 --setGlobalDelayBetweenHotkeyActivation(300)
 
 function CETrainer_BnCClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ZangetsuSubweapon')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+340", 1)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+340", 1)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+340", 1)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+340", 1)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+340", 1)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+340", 1)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+340", 1)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+340", 1)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+340", 1)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+340", 1)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+340", 1)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+340", 1)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+340", 1)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+340", 1)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+340", 1)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+340", 1)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+340", 1)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+340", 1)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+340", 1)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+340", 1)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+340", 1)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+340", 1)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+340", 1)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+340", 1)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+340", 1)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+340", 1)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+340", 1)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+340", 1)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+340", 1)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+340", 1)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+340", 1)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+340", 1)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+340", 1)
+  end
 end
 function CETrainer_MagicCharmClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ZangetsuSubweapon')
-  mr.Value=2
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+340", 2)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+340", 2)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+340", 2)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+340", 2)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+340", 2)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+340", 2)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+340", 2)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+340", 2)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+340", 2)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+340", 2)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+340", 2)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+340", 2)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+340", 2)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+340", 2)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+340", 2)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+340", 2)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+340", 2)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+340", 2)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+340", 2)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+340", 2)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+340", 2)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+340", 2)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+340", 2)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+340", 2)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+340", 2)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+340", 2)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+340", 2)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+340", 2)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+340", 2)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+340", 2)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+340", 2)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+340", 2)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+340", 2)
+  end
 end
 function CETrainer_DemonEssenceClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ZangetsuSubweapon')
-  mr.Value=3
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+340", 3)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+340", 3)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+340", 3)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+340", 3)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+340", 3)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+340", 3)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+340", 3)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+340", 3)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+340", 3)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+340", 3)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+340", 3)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+340", 3)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+340", 3)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+340", 3)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+340", 3)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+340", 3)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+340", 3)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+340", 3)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+340", 3)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+340", 3)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+340", 3)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+340", 3)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+340", 3)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+340", 3)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+340", 3)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+340", 3)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+340", 3)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+340", 3)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+340", 3)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+340", 3)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+340", 3)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+340", 3)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+340", 3)
+  end
 end
 function CETrainer_ZangetsuNoneClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ZangetsuSubweapon')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+340", 0)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+340", 0)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+340", 0)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+340", 0)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+340", 0)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+340", 0)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+340", 0)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+340", 0)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+340", 0)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+340", 0)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+340", 0)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+340", 0)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+340", 0)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+340", 0)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+340", 0)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+340", 0)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+340", 0)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+340", 0)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+340", 0)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+340", 0)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+340", 0)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+340", 0)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+340", 0)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+340", 0)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+340", 0)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+340", 0)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+340", 0)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+340", 0)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+340", 0)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+340", 0)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+340", 0)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+340", 0)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+340", 0)
+  end
 end
 
 function CETrainer_DaggerClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('MiriamSubweapon')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+344", 1)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+344", 1)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+344", 1)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+344", 1)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+344", 1)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+344", 1)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+344", 1)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+344", 1)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+344", 1)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+344", 1)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+344", 1)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+344", 1)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+344", 1)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+344", 1)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+344", 1)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+344", 1)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+344", 1)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+344", 1)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+344", 1)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+344", 1)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+344", 1)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+344", 1)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+344", 1)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+344", 1)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+344", 1)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+344", 1)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+344", 1)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+344", 1)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+344", 1)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+344", 1)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+344", 1)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+344", 1)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+344", 1)
+  end
 end
 function CETrainer_RapierClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('MiriamSubweapon')
-  mr.Value=2
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+344", 2)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+344", 2)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+344", 2)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+344", 2)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+344", 2)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+344", 2)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+344", 2)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+344", 2)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+344", 2)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+344", 2)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+344", 2)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+344", 2)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+344", 2)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+344", 2)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+344", 2)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+344", 2)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+344", 2)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+344", 2)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+344", 2)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+344", 2)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+344", 2)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+344", 2)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+344", 2)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+344", 2)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+344", 2)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+344", 2)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+344", 2)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+344", 2)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+344", 2)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+344", 2)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+344", 2)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+344", 2)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+344", 2)
+  end
 end
 function CETrainer_AxeClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('MiriamSubweapon')
-  mr.Value=3
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+344", 3)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+344", 3)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+344", 3)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+344", 3)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+344", 3)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+344", 3)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+344", 3)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+344", 3)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+344", 3)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+344", 3)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+344", 3)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+344", 3)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+344", 3)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+344", 3)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+344", 3)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+344", 3)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+344", 3)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+344", 3)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+344", 3)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+344", 3)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+344", 3)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+344", 3)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+344", 3)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+344", 3)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+344", 3)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+344", 3)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+344", 3)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+344", 3)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+344", 3)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+344", 3)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+344", 3)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+344", 3)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+344", 3)
+  end
 end
 function CETrainer_SickleClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('MiriamSubweapon')
-  mr.Value=4
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+344", 4)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+344", 4)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+344", 4)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+344", 4)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+344", 4)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+344", 4)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+344", 4)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+344", 4)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+344", 4)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+344", 4)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+344", 4)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+344", 4)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+344", 4)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+344", 4)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+344", 4)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+344", 4)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+344", 4)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+344", 4)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+344", 4)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+344", 4)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+344", 4)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+344", 4)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+344", 4)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+344", 4)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+344", 4)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+344", 4)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+344", 4)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+344", 4)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+344", 4)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+344", 4)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+344", 4)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+344", 4)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+344", 4)
+  end
 end
 function CETrainer_MiriamNoneClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('MiriamSubweapon')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+344", 0)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+344", 0)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+344", 0)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+344", 0)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+344", 0)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+344", 0)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+344", 0)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+344", 0)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+344", 0)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+344", 0)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+344", 0)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+344", 0)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+344", 0)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+344", 0)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+344", 0)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+344", 0)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+344", 0)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+344", 0)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+344", 0)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+344", 0)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+344", 0)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+344", 0)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+344", 0)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+344", 0)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+344", 0)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+344", 0)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+344", 0)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+344", 0)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+344", 0)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+344", 0)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+344", 0)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+344", 0)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+344", 0)
+  end
 end
 
 function CETrainer_BurningSphereClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('AlfredSubweapon')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+348", 1)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+348", 1)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+348", 1)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+348", 1)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+348", 1)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+348", 1)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+348", 1)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+348", 1)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+348", 1)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+348", 1)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+348", 1)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+348", 1)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+348", 1)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+348", 1)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+348", 1)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+348", 1)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+348", 1)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+348", 1)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+348", 1)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+348", 1)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+348", 1)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+348", 1)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+348", 1)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+348", 1)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+348", 1)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+348", 1)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+348", 1)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+348", 1)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+348", 1)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+348", 1)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+348", 1)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+348", 1)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+348", 1)
+  end
 end
 function CETrainer_FrostcaliburClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('AlfredSubweapon')
-  mr.Value=2
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+348", 2)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+348", 2)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+348", 2)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+348", 2)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+348", 2)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+348", 2)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+348", 2)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+348", 2)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+348", 2)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+348", 2)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+348", 2)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+348", 2)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+348", 2)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+348", 2)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+348", 2)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+348", 2)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+348", 2)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+348", 2)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+348", 2)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+348", 2)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+348", 2)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+348", 2)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+348", 2)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+348", 2)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+348", 2)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+348", 2)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+348", 2)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+348", 2)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+348", 2)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+348", 2)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+348", 2)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+348", 2)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+348", 2)
+  end
 end
 function CETrainer_VoltaicRayClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('AlfredSubweapon')
-  mr.Value=3
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+348", 3)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+348", 3)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+348", 3)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+348", 3)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+348", 3)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+348", 3)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+348", 3)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+348", 3)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+348", 3)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+348", 3)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+348", 3)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+348", 3)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+348", 3)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+348", 3)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+348", 3)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+348", 3)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+348", 3)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+348", 3)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+348", 3)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+348", 3)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+348", 3)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+348", 3)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+348", 3)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+348", 3)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+348", 3)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+348", 3)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+348", 3)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+348", 3)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+348", 3)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+348", 3)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+348", 3)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+348", 3)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+348", 3)
+  end
 end
 function CETrainer_SoulVisionClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('AlfredSubweapon')
-  mr.Value=4
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+348", 4)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+348", 4)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+348", 4)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+348", 4)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+348", 4)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+348", 4)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+348", 4)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+348", 4)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+348", 4)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+348", 4)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+348", 4)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+348", 4)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+348", 4)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+348", 4)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+348", 4)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+348", 4)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+348", 4)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+348", 4)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+348", 4)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+348", 4)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+348", 4)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+348", 4)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+348", 4)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+348", 4)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+348", 4)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+348", 4)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+348", 4)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+348", 4)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+348", 4)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+348", 4)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+348", 4)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+348", 4)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+348", 4)
+  end
 end
 function CETrainer_AlfredNoneClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('AlfredSubweapon')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+348", 0)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+348", 0)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+348", 0)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+348", 0)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+348", 0)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+348", 0)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+348", 0)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+348", 0)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+348", 0)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+348", 0)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+348", 0)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+348", 0)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+348", 0)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+348", 0)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+348", 0)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+348", 0)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+348", 0)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+348", 0)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+348", 0)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+348", 0)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+348", 0)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+348", 0)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+348", 0)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+348", 0)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+348", 0)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+348", 0)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+348", 0)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+348", 0)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+348", 0)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+348", 0)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+348", 0)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+348", 0)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+348", 0)
+  end
 end
 
 function CETrainer_BatClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('GebelSubweapon')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+34C", 1)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+34C", 1)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+34C", 1)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+34C", 1)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+34C", 1)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+34C", 1)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+34C", 1)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+34C", 1)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+34C", 1)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+34C", 1)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+34C", 1)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+34C", 1)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+34C", 1)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+34C", 1)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+34C", 1)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+34C", 1)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+34C", 1)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+34C", 1)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+34C", 1)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+34C", 1)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+34C", 1)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+34C", 1)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+34C", 1)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+34C", 1)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+34C", 1)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+34C", 1)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+34C", 1)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+34C", 1)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+34C", 1)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+34C", 1)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+34C", 1)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+34C", 1)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+34C", 1)
+  end
 end
 function CETrainer_GebelNoneClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('GebelSubweapon')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+34C", 0)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+34C", 0)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+34C", 0)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+34C", 0)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+34C", 0)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+34C", 0)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+34C", 0)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+34C", 0)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+34C", 0)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+34C", 0)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+34C", 0)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+34C", 0)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+34C", 0)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+34C", 0)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+34C", 0)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+34C", 0)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+34C", 0)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+34C", 0)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+34C", 0)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+34C", 0)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+34C", 0)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+34C", 0)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+34C", 0)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+34C", 0)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+34C", 0)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+34C", 0)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+34C", 0)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+34C", 0)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+34C", 0)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+34C", 0)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+34C", 0)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+34C", 0)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+34C", 0)
+  end
 end
 
 function CETrainer_AnthemClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('DominiqueSubweapon')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+350", 1)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+350", 1)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+350", 1)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+350", 1)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+350", 1)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+350", 1)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+350", 1)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+350", 1)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+350", 1)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+350", 1)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+350", 1)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+350", 1)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+350", 1)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+350", 1)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+350", 1)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+350", 1)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+350", 1)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+350", 1)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+350", 1)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+350", 1)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+350", 1)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+350", 1)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+350", 1)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+350", 1)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+350", 1)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+350", 1)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+350", 1)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+350", 1)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+350", 1)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+350", 1)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+350", 1)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+350", 1)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+350", 1)
+  end
 end
 function CETrainer_PlantClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('DominiqueSubweapon')
-  mr.Value=2
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+350", 2)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+350", 2)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+350", 2)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+350", 2)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+350", 2)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+350", 2)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+350", 2)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+350", 2)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+350", 2)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+350", 2)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+350", 2)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+350", 2)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+350", 2)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+350", 2)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+350", 2)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+350", 2)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+350", 2)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+350", 2)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+350", 2)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+350", 2)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+350", 2)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+350", 2)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+350", 2)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+350", 2)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+350", 2)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+350", 2)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+350", 2)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+350", 2)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+350", 2)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+350", 2)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+350", 2)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+350", 2)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+350", 2)
+  end
 end
 function CETrainer_ElectroClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('DominiqueSubweapon')
-  mr.Value=3
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+350", 3)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+350", 3)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+350", 3)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+350", 3)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+350", 3)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+350", 3)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+350", 3)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+350", 3)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+350", 3)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+350", 3)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+350", 3)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+350", 3)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+350", 3)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+350", 3)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+350", 3)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+350", 3)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+350", 3)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+350", 3)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+350", 3)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+350", 3)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+350", 3)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+350", 3)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+350", 3)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+350", 3)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+350", 3)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+350", 3)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+350", 3)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+350", 3)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+350", 3)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+350", 3)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+350", 3)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+350", 3)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+350", 3)
+  end
 end
 function CETrainer_WindClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('DominiqueSubweapon')
-  mr.Value=4
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+350", 4)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+350", 4)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+350", 4)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+350", 4)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+350", 4)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+350", 4)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+350", 4)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+350", 4)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+350", 4)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+350", 4)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+350", 4)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+350", 4)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+350", 4)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+350", 4)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+350", 4)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+350", 4)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+350", 4)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+350", 4)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+350", 4)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+350", 4)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+350", 4)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+350", 4)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+350", 4)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+350", 4)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+350", 4)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+350", 4)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+350", 4)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+350", 4)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+350", 4)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+350", 4)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+350", 4)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+350", 4)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+350", 4)
+  end
 end
 function CETrainer_LanceClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('DominiqueSubweapon')
-  mr.Value=5
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+350", 5)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+350", 5)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+350", 5)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+350", 5)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+350", 5)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+350", 5)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+350", 5)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+350", 5)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+350", 5)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+350", 5)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+350", 5)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+350", 5)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+350", 5)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+350", 5)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+350", 5)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+350", 5)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+350", 5)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+350", 5)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+350", 5)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+350", 5)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+350", 5)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+350", 5)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+350", 5)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+350", 5)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+350", 5)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+350", 5)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+350", 5)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+350", 5)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+350", 5)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+350", 5)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+350", 5)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+350", 5)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+350", 5)
+  end
 end
 function CETrainer_DominiqueNoneClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('DominiqueSubweapon')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+350", 0)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+350", 0)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+350", 0)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+350", 0)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+350", 0)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+350", 0)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+350", 0)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+350", 0)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+350", 0)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+350", 0)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+350", 0)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+350", 0)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+350", 0)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+350", 0)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+350", 0)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+350", 0)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+350", 0)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+350", 0)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+350", 0)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+350", 0)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+350", 0)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+350", 0)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+350", 0)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+350", 0)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+350", 0)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+350", 0)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+350", 0)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+350", 0)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+350", 0)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+350", 0)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+350", 0)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+350", 0)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+350", 0)
+  end
 end
 
 function CETrainer_PartisanClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('RobertSubweapon')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+354", 1)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+354", 1)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+354", 1)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+354", 1)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+354", 1)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+354", 1)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+354", 1)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+354", 1)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+354", 1)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+354", 1)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+354", 1)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+354", 1)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+354", 1)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+354", 1)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+354", 1)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+354", 1)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+354", 1)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+354", 1)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+354", 1)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+354", 1)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+354", 1)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+354", 1)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+354", 1)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+354", 1)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+354", 1)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+354", 1)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+354", 1)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+354", 1)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+354", 1)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+354", 1)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+354", 1)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+354", 1)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+354", 1)
+  end
 end
 function CETrainer_GrenadeClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('RobertSubweapon')
-  mr.Value=2
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+354", 2)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+354", 2)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+354", 2)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+354", 2)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+354", 2)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+354", 2)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+354", 2)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+354", 2)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+354", 2)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+354", 2)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+354", 2)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+354", 2)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+354", 2)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+354", 2)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+354", 2)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+354", 2)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+354", 2)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+354", 2)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+354", 2)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+354", 2)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+354", 2)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+354", 2)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+354", 2)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+354", 2)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+354", 2)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+354", 2)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+354", 2)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+354", 2)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+354", 2)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+354", 2)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+354", 2)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+354", 2)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+354", 2)
+  end
 end
 function CETrainer_CannonClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('RobertSubweapon')
-  mr.Value=3
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+354", 3)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+354", 3)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+354", 3)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+354", 3)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+354", 3)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+354", 3)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+354", 3)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+354", 3)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+354", 3)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+354", 3)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+354", 3)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+354", 3)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+354", 3)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+354", 3)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+354", 3)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+354", 3)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+354", 3)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+354", 3)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+354", 3)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+354", 3)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+354", 3)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+354", 3)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+354", 3)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+354", 3)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+354", 3)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+354", 3)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+354", 3)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+354", 3)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+354", 3)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+354", 3)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+354", 3)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+354", 3)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+354", 3)
+  end
 end
 function CETrainer_RapidClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('RobertSubweapon')
-  mr.Value=4
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+354", 4)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+354", 4)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+354", 4)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+354", 4)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+354", 4)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+354", 4)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+354", 4)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+354", 4)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+354", 4)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+354", 4)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+354", 4)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+354", 4)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+354", 4)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+354", 4)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+354", 4)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+354", 4)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+354", 4)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+354", 4)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+354", 4)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+354", 4)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+354", 4)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+354", 4)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+354", 4)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+354", 4)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+354", 4)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+354", 4)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+354", 4)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+354", 4)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+354", 4)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+354", 4)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+354", 4)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+354", 4)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+354", 4)
+  end
 end
 function CETrainer_RobertNoneClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('RobertSubweapon')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+354", 0)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+354", 0)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+354", 0)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+354", 0)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+354", 0)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+354", 0)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+354", 0)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+354", 0)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+354", 0)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+354", 0)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+354", 0)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+354", 0)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+354", 0)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+354", 0)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+354", 0)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+354", 0)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+354", 0)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+354", 0)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+354", 0)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+354", 0)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+354", 0)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+354", 0)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+354", 0)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+354", 0)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+354", 0)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+354", 0)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+354", 0)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+354", 0)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+354", 0)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+354", 0)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+354", 0)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+354", 0)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+354", 0)
+  end
 end
 
 function CETrainer_InvincibleClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('HachiSubweapon')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+358", 1)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+358", 1)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+358", 1)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+358", 1)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+358", 1)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+358", 1)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+358", 1)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+358", 1)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+358", 1)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+358", 1)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+358", 1)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+358", 1)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+358", 1)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+358", 1)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+358", 1)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+358", 1)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+358", 1)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+358", 1)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+358", 1)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+358", 1)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+358", 1)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+358", 1)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+358", 1)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+358", 1)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+358", 1)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+358", 1)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+358", 1)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+358", 1)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+358", 1)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+358", 1)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+358", 1)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+358", 1)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+358", 1)
+  end
 end
 function CETrainer_HachiNoneClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('HachiSubweapon')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+358", 0)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+358", 0)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+358", 0)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+358", 0)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+358", 0)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+358", 0)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+358", 0)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+358", 0)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+358", 0)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+358", 0)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+358", 0)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+358", 0)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+358", 0)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+358", 0)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+358", 0)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+358", 0)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+358", 0)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+358", 0)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+358", 0)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+358", 0)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+358", 0)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+358", 0)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+358", 0)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+358", 0)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+358", 0)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+358", 0)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+358", 0)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+358", 0)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+358", 0)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+358", 0)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+358", 0)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+358", 0)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+358", 0)
+  end
 end
 
 function CETrainer_BnCShadowClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ShadowZangetsuSubweapon')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+35C", 1)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+35C", 1)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+35C", 1)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+35C", 1)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+35C", 1)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+35C", 1)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+35C", 1)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+35C", 1)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+35C", 1)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+35C", 1)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+35C", 1)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+35C", 1)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+35C", 1)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+35C", 1)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+35C", 1)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+35C", 1)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+35C", 1)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+35C", 1)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+35C", 1)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+35C", 1)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+35C", 1)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+35C", 1)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+35C", 1)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+35C", 1)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+35C", 1)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+35C", 1)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+35C", 1)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+35C", 1)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+35C", 1)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+35C", 1)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+35C", 1)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+35C", 1)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+35C", 1)
+  end
 end
 function CETrainer_MagicCharmShadowClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ShadowZangetsuSubweapon')
-  mr.Value=2
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+35C", 2)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+35C", 2)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+35C", 2)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+35C", 2)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+35C", 2)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+35C", 2)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+35C", 2)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+35C", 2)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+35C", 2)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+35C", 2)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+35C", 2)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+35C", 2)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+35C", 2)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+35C", 2)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+35C", 2)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+35C", 2)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+35C", 2)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+35C", 2)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+35C", 2)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+35C", 2)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+35C", 2)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+35C", 2)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+35C", 2)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+35C", 2)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+35C", 2)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+35C", 2)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+35C", 2)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+35C", 2)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+35C", 2)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+35C", 2)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+35C", 2)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+35C", 2)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+35C", 2)
+  end
 end
 function CETrainer_DemonEssenceShadowClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ShadowZangetsuSubweapon')
-  mr.Value=3
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+35C", 3)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+35C", 3)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+35C", 3)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+35C", 3)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+35C", 3)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+35C", 3)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+35C", 3)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+35C", 3)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+35C", 3)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+35C", 3)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+35C", 3)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+35C", 3)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+35C", 3)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+35C", 3)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+35C", 3)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+35C", 3)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+35C", 3)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+35C", 3)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+35C", 3)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+35C", 3)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+35C", 3)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+35C", 3)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+35C", 3)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+35C", 3)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+35C", 3)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+35C", 3)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+35C", 3)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+35C", 3)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+35C", 3)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+35C", 3)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+35C", 3)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+35C", 3)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+35C", 3)
+  end
 end
 function CETrainer_ShadowZangetsuNoneClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ShadowZangetsuSubweapon')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    writeBytes("[game.exe+9F608C]+35C", 0)
+  end
+  if(saveslot.Value=="1") then
+    writeBytes("[game.exe+9F6094]+35C", 0)
+  end
+  if(saveslot.Value=="2") then
+    writeBytes("[game.exe+9F609C]+35C", 0)
+  end
+  if(saveslot.Value=="3") then
+    writeBytes("[game.exe+9F60A4]+35C", 0)
+  end
+  if(saveslot.Value=="4") then
+    writeBytes("[game.exe+9F60AC]+35C", 0)
+  end
+  if(saveslot.Value=="5") then
+    writeBytes("[game.exe+9F60B4]+35C", 0)
+  end
+  if(saveslot.Value=="6") then
+    writeBytes("[game.exe+9F60BC]+35C", 0)
+  end
+  if(saveslot.Value=="7") then
+    writeBytes("[game.exe+9F60C4]+35C", 0)
+  end
+  if(saveslot.Value=="8") then
+    writeBytes("[game.exe+9F60CC]+35C", 0)
+  end
+  if(saveslot.Value=="9") then
+    writeBytes("[game.exe+9F60D4]+35C", 0)
+  end
+  if(saveslot.Value=="10") then
+    writeBytes("[game.exe+9F60DC]+35C", 0)
+  end
+  if(saveslot.Value=="11") then
+    writeBytes("[game.exe+9F60E4]+35C", 0)
+  end
+  if(saveslot.Value=="12") then
+    writeBytes("[game.exe+9F60EC]+35C", 0)
+  end
+  if(saveslot.Value=="13") then
+    writeBytes("[game.exe+9F60F4]+35C", 0)
+  end
+  if(saveslot.Value=="14") then
+    writeBytes("[game.exe+9F60FC]+35C", 0)
+  end
+  if(saveslot.Value=="15") then
+    writeBytes("[game.exe+9F6104]+35C", 0)
+  end
+  if(saveslot.Value=="16") then
+    writeBytes("[game.exe+9F610C]+35C", 0)
+  end
+  if(saveslot.Value=="17") then
+    writeBytes("[game.exe+9F6114]+35C", 0)
+  end
+  if(saveslot.Value=="18") then
+    writeBytes("[game.exe+9F611C]+35C", 0)
+  end
+  if(saveslot.Value=="19") then
+    writeBytes("[game.exe+9F6124]+35C", 0)
+  end
+  if(saveslot.Value=="20") then
+    writeBytes("[game.exe+9F612C]+35C", 0)
+  end
+  if(saveslot.Value=="21") then
+    writeBytes("[game.exe+9F6134]+35C", 0)
+  end
+  if(saveslot.Value=="22") then
+    writeBytes("[game.exe+9F613C]+35C", 0)
+  end
+  if(saveslot.Value=="23") then
+    writeBytes("[game.exe+9F6144]+35C", 0)
+  end
+  if(saveslot.Value=="24") then
+    writeBytes("[game.exe+9F614C]+35C", 0)
+  end
+  if(saveslot.Value=="25") then
+    writeBytes("[game.exe+9F6154]+35C", 0)
+  end
+  if(saveslot.Value=="26") then
+    writeBytes("[game.exe+9F615C]+35C", 0)
+  end
+  if(saveslot.Value=="27") then
+    writeBytes("[game.exe+9F6164]+35C", 0)
+  end
+  if(saveslot.Value=="28") then
+    writeBytes("[game.exe+9F616C]+35C", 0)
+  end
+  if(saveslot.Value=="29") then
+    writeBytes("[game.exe+9F6174]+35C", 0)
+  end
+  if(saveslot.Value=="30") then
+    writeBytes("[game.exe+9F617C]+35C", 0)
+  end
+  if(saveslot.Value=="31") then
+    writeBytes("[game.exe+9F6184]+35C", 0)
+  end
+  if(saveslot.Value=="32") then
+    writeBytes("[game.exe+9F618C]+35C", 0)
+  end
 end
 
 function CETrainer_ZangetsuReviveClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ZangetsuHP')
-  local mr2=AddressList.getMemoryRecordByDescription('ZangetsuMaxHP')
-  mr.Value=mr2.Value
+  hpf.Value=readFloat("[game.exe+9F608C]+2F8")
+  hpf2.Value=readFloat("[game.exe+9F6094]+2F8")
+  hpf3.Value=readFloat("[game.exe+9F609C]+2F8")
+  hpf4.Value=readFloat("[game.exe+9F60A4]+2F8")
+  hpf5.Value=readFloat("[game.exe+9F60AC]+2F8")
+  hpf6.Value=readFloat("[game.exe+9F60B4]+2F8")
+  hpf7.Value=readFloat("[game.exe+9F60BC]+2F8")
+  hpf8.Value=readFloat("[game.exe+9F60C4]+2F8")
+  hpf9.Value=readFloat("[game.exe+9F60CC]+2F8")
+  hpf10.Value=readFloat("[game.exe+9F60D4]+2F8")
+  hpf11.Value=readFloat("[game.exe+9F60DC]+2F8")
+  hpf12.Value=readFloat("[game.exe+9F60E4]+2F8")
+  hpf13.Value=readFloat("[game.exe+9F60EC]+2F8")
+  hpf14.Value=readFloat("[game.exe+9F60F4]+2F8")
+  hpf15.Value=readFloat("[game.exe+9F60FC]+2F8")
+  hpf16.Value=readFloat("[game.exe+9F6104]+2F8")
+  hpf17.Value=readFloat("[game.exe+9F610C]+2F8")
+  hpf18.Value=readFloat("[game.exe+9F6114]+2F8")
+  hpf19.Value=readFloat("[game.exe+9F611C]+2F8")
+  hpf20.Value=readFloat("[game.exe+9F6124]+2F8")
+  hpf21.Value=readFloat("[game.exe+9F612C]+2F8")
+  hpf22.Value=readFloat("[game.exe+9F6134]+2F8")
+  hpf23.Value=readFloat("[game.exe+9F613C]+2F8")
+  hpf24.Value=readFloat("[game.exe+9F6144]+2F8")
+  hpf25.Value=readFloat("[game.exe+9F614C]+2F8")
+  hpf26.Value=readFloat("[game.exe+9F6154]+2F8")
+  hpf27.Value=readFloat("[game.exe+9F615C]+2F8")
+  hpf28.Value=readFloat("[game.exe+9F6164]+2F8")
+  hpf29.Value=readFloat("[game.exe+9F616C]+2F8")
+  hpf30.Value=readFloat("[game.exe+9F6174]+2F8")
+  hpf31.Value=readFloat("[game.exe+9F617C]+2F8")
+  hpf32.Value=readFloat("[game.exe+9F6184]+2F8")
+  hpf33.Value=readFloat("[game.exe+9F618C]+2F8")
 end
 function CETrainer_MiriamReviveClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('MiriamHP')
-  local mr2=AddressList.getMemoryRecordByDescription('MiriamMaxHP')
-  mr.Value=mr2.Value
+  hpf34.Value=readFloat("[game.exe+9F608C]+2FC")
+  hpf35.Value=readFloat("[game.exe+9F6094]+2FC")
+  hpf36.Value=readFloat("[game.exe+9F609C]+2FC")
+  hpf37.Value=readFloat("[game.exe+9F60A4]+2FC")
+  hpf38.Value=readFloat("[game.exe+9F60AC]+2FC")
+  hpf39.Value=readFloat("[game.exe+9F60B4]+2FC")
+  hpf40.Value=readFloat("[game.exe+9F60BC]+2FC")
+  hpf41.Value=readFloat("[game.exe+9F60C4]+2FC")
+  hpf42.Value=readFloat("[game.exe+9F60CC]+2FC")
+  hpf43.Value=readFloat("[game.exe+9F60D4]+2FC")
+  hpf44.Value=readFloat("[game.exe+9F60DC]+2FC")
+  hpf45.Value=readFloat("[game.exe+9F60E4]+2FC")
+  hpf46.Value=readFloat("[game.exe+9F60EC]+2FC")
+  hpf47.Value=readFloat("[game.exe+9F60F4]+2FC")
+  hpf48.Value=readFloat("[game.exe+9F60FC]+2FC")
+  hpf49.Value=readFloat("[game.exe+9F6104]+2FC")
+  hpf50.Value=readFloat("[game.exe+9F610C]+2FC")
+  hpf51.Value=readFloat("[game.exe+9F6114]+2FC")
+  hpf52.Value=readFloat("[game.exe+9F611C]+2FC")
+  hpf53.Value=readFloat("[game.exe+9F6124]+2FC")
+  hpf54.Value=readFloat("[game.exe+9F612C]+2FC")
+  hpf55.Value=readFloat("[game.exe+9F6134]+2FC")
+  hpf56.Value=readFloat("[game.exe+9F613C]+2FC")
+  hpf57.Value=readFloat("[game.exe+9F6144]+2FC")
+  hpf58.Value=readFloat("[game.exe+9F614C]+2FC")
+  hpf59.Value=readFloat("[game.exe+9F6154]+2FC")
+  hpf60.Value=readFloat("[game.exe+9F615C]+2FC")
+  hpf61.Value=readFloat("[game.exe+9F6164]+2FC")
+  hpf62.Value=readFloat("[game.exe+9F616C]+2FC")
+  hpf63.Value=readFloat("[game.exe+9F6174]+2FC")
+  hpf64.Value=readFloat("[game.exe+9F617C]+2FC")
+  hpf65.Value=readFloat("[game.exe+9F6184]+2FC")
+  hpf66.Value=readFloat("[game.exe+9F618C]+2FC")
 end
 function CETrainer_AlfredReviveClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('AlfredHP')
-  local mr2=AddressList.getMemoryRecordByDescription('AlfredMaxHP')
-  mr.Value=mr2.Value
+  hpf67.Value=readFloat("[game.exe+9F608C]+300")
+  hpf68.Value=readFloat("[game.exe+9F6094]+300")
+  hpf69.Value=readFloat("[game.exe+9F609C]+300")
+  hpf70.Value=readFloat("[game.exe+9F60A4]+300")
+  hpf71.Value=readFloat("[game.exe+9F60AC]+300")
+  hpf72.Value=readFloat("[game.exe+9F60B4]+300")
+  hpf73.Value=readFloat("[game.exe+9F60BC]+300")
+  hpf74.Value=readFloat("[game.exe+9F60C4]+300")
+  hpf75.Value=readFloat("[game.exe+9F60CC]+300")
+  hpf76.Value=readFloat("[game.exe+9F60D4]+300")
+  hpf77.Value=readFloat("[game.exe+9F60DC]+300")
+  hpf78.Value=readFloat("[game.exe+9F60E4]+300")
+  hpf79.Value=readFloat("[game.exe+9F60EC]+300")
+  hpf80.Value=readFloat("[game.exe+9F60F4]+300")
+  hpf81.Value=readFloat("[game.exe+9F60FC]+300")
+  hpf82.Value=readFloat("[game.exe+9F6104]+300")
+  hpf83.Value=readFloat("[game.exe+9F610C]+300")
+  hpf84.Value=readFloat("[game.exe+9F6114]+300")
+  hpf85.Value=readFloat("[game.exe+9F611C]+300")
+  hpf86.Value=readFloat("[game.exe+9F6124]+300")
+  hpf87.Value=readFloat("[game.exe+9F612C]+300")
+  hpf88.Value=readFloat("[game.exe+9F6134]+300")
+  hpf89.Value=readFloat("[game.exe+9F613C]+300")
+  hpf90.Value=readFloat("[game.exe+9F6144]+300")
+  hpf91.Value=readFloat("[game.exe+9F614C]+300")
+  hpf92.Value=readFloat("[game.exe+9F6154]+300")
+  hpf93.Value=readFloat("[game.exe+9F615C]+300")
+  hpf94.Value=readFloat("[game.exe+9F6164]+300")
+  hpf95.Value=readFloat("[game.exe+9F616C]+300")
+  hpf96.Value=readFloat("[game.exe+9F6174]+300")
+  hpf97.Value=readFloat("[game.exe+9F617C]+300")
+  hpf98.Value=readFloat("[game.exe+9F6184]+300")
+  hpf99.Value=readFloat("[game.exe+9F618C]+300")
 end
 function CETrainer_GebelReviveClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('GebelHP')
-  local mr2=AddressList.getMemoryRecordByDescription('GebelMaxHP')
-  mr.Value=mr2.Value
+  hpf100.Value=readFloat("[game.exe+9F608C]+304")
+  hpf101.Value=readFloat("[game.exe+9F6094]+304")
+  hpf102.Value=readFloat("[game.exe+9F609C]+304")
+  hpf103.Value=readFloat("[game.exe+9F60A4]+304")
+  hpf104.Value=readFloat("[game.exe+9F60AC]+304")
+  hpf105.Value=readFloat("[game.exe+9F60B4]+304")
+  hpf106.Value=readFloat("[game.exe+9F60BC]+304")
+  hpf107.Value=readFloat("[game.exe+9F60C4]+304")
+  hpf108.Value=readFloat("[game.exe+9F60CC]+304")
+  hpf109.Value=readFloat("[game.exe+9F60D4]+304")
+  hpf110.Value=readFloat("[game.exe+9F60DC]+304")
+  hpf111.Value=readFloat("[game.exe+9F60E4]+304")
+  hpf112.Value=readFloat("[game.exe+9F60EC]+304")
+  hpf113.Value=readFloat("[game.exe+9F60F4]+304")
+  hpf114.Value=readFloat("[game.exe+9F60FC]+304")
+  hpf115.Value=readFloat("[game.exe+9F6104]+304")
+  hpf116.Value=readFloat("[game.exe+9F610C]+304")
+  hpf117.Value=readFloat("[game.exe+9F6114]+304")
+  hpf118.Value=readFloat("[game.exe+9F611C]+304")
+  hpf119.Value=readFloat("[game.exe+9F6124]+304")
+  hpf120.Value=readFloat("[game.exe+9F612C]+304")
+  hpf121.Value=readFloat("[game.exe+9F6134]+304")
+  hpf122.Value=readFloat("[game.exe+9F613C]+304")
+  hpf123.Value=readFloat("[game.exe+9F6144]+304")
+  hpf124.Value=readFloat("[game.exe+9F614C]+304")
+  hpf125.Value=readFloat("[game.exe+9F6154]+304")
+  hpf126.Value=readFloat("[game.exe+9F615C]+304")
+  hpf127.Value=readFloat("[game.exe+9F6164]+304")
+  hpf128.Value=readFloat("[game.exe+9F616C]+304")
+  hpf129.Value=readFloat("[game.exe+9F6174]+304")
+  hpf130.Value=readFloat("[game.exe+9F617C]+304")
+  hpf131.Value=readFloat("[game.exe+9F6184]+304")
+  hpf132.Value=readFloat("[game.exe+9F618C]+304")
 end
 function CETrainer_DominiqueReviveClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('DominiqueHP')
-  local mr2=AddressList.getMemoryRecordByDescription('DominiqueMaxHP')
-  mr.Value=mr2.Value
+  hpf133.Value=readFloat("[game.exe+9F608C]+308")
+  hpf134.Value=readFloat("[game.exe+9F6094]+308")
+  hpf135.Value=readFloat("[game.exe+9F609C]+308")
+  hpf136.Value=readFloat("[game.exe+9F60A4]+308")
+  hpf137.Value=readFloat("[game.exe+9F60AC]+308")
+  hpf138.Value=readFloat("[game.exe+9F60B4]+308")
+  hpf139.Value=readFloat("[game.exe+9F60BC]+308")
+  hpf140.Value=readFloat("[game.exe+9F60C4]+308")
+  hpf141.Value=readFloat("[game.exe+9F60CC]+308")
+  hpf142.Value=readFloat("[game.exe+9F60D4]+308")
+  hpf143.Value=readFloat("[game.exe+9F60DC]+308")
+  hpf144.Value=readFloat("[game.exe+9F60E4]+308")
+  hpf145.Value=readFloat("[game.exe+9F60EC]+308")
+  hpf146.Value=readFloat("[game.exe+9F60F4]+308")
+  hpf147.Value=readFloat("[game.exe+9F60FC]+308")
+  hpf148.Value=readFloat("[game.exe+9F6104]+308")
+  hpf149.Value=readFloat("[game.exe+9F610C]+308")
+  hpf150.Value=readFloat("[game.exe+9F6114]+308")
+  hpf151.Value=readFloat("[game.exe+9F611C]+308")
+  hpf152.Value=readFloat("[game.exe+9F6124]+308")
+  hpf153.Value=readFloat("[game.exe+9F612C]+308")
+  hpf154.Value=readFloat("[game.exe+9F6134]+308")
+  hpf155.Value=readFloat("[game.exe+9F613C]+308")
+  hpf156.Value=readFloat("[game.exe+9F6144]+308")
+  hpf157.Value=readFloat("[game.exe+9F614C]+308")
+  hpf158.Value=readFloat("[game.exe+9F6154]+308")
+  hpf159.Value=readFloat("[game.exe+9F615C]+308")
+  hpf160.Value=readFloat("[game.exe+9F6164]+308")
+  hpf161.Value=readFloat("[game.exe+9F616C]+308")
+  hpf162.Value=readFloat("[game.exe+9F6174]+308")
+  hpf163.Value=readFloat("[game.exe+9F617C]+308")
+  hpf164.Value=readFloat("[game.exe+9F6184]+308")
+  hpf165.Value=readFloat("[game.exe+9F618C]+308")
 end
 function CETrainer_RobertReviveClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('RobertHP')
-  local mr2=AddressList.getMemoryRecordByDescription('RobertMaxHP')
-  mr.Value=mr2.Value
+  hpf166.Value=readFloat("[game.exe+9F608C]+30C")
+  hpf167.Value=readFloat("[game.exe+9F6094]+30C")
+  hpf168.Value=readFloat("[game.exe+9F609C]+30C")
+  hpf169.Value=readFloat("[game.exe+9F60A4]+30C")
+  hpf170.Value=readFloat("[game.exe+9F60AC]+30C")
+  hpf171.Value=readFloat("[game.exe+9F60B4]+30C")
+  hpf172.Value=readFloat("[game.exe+9F60BC]+30C")
+  hpf173.Value=readFloat("[game.exe+9F60C4]+30C")
+  hpf174.Value=readFloat("[game.exe+9F60CC]+30C")
+  hpf175.Value=readFloat("[game.exe+9F60D4]+30C")
+  hpf176.Value=readFloat("[game.exe+9F60DC]+30C")
+  hpf177.Value=readFloat("[game.exe+9F60E4]+30C")
+  hpf178.Value=readFloat("[game.exe+9F60EC]+30C")
+  hpf179.Value=readFloat("[game.exe+9F60F4]+30C")
+  hpf180.Value=readFloat("[game.exe+9F60FC]+30C")
+  hpf181.Value=readFloat("[game.exe+9F6104]+30C")
+  hpf182.Value=readFloat("[game.exe+9F610C]+30C")
+  hpf183.Value=readFloat("[game.exe+9F6114]+30C")
+  hpf184.Value=readFloat("[game.exe+9F611C]+30C")
+  hpf185.Value=readFloat("[game.exe+9F6124]+30C")
+  hpf186.Value=readFloat("[game.exe+9F612C]+30C")
+  hpf187.Value=readFloat("[game.exe+9F6134]+30C")
+  hpf188.Value=readFloat("[game.exe+9F613C]+30C")
+  hpf189.Value=readFloat("[game.exe+9F6144]+30C")
+  hpf190.Value=readFloat("[game.exe+9F614C]+30C")
+  hpf191.Value=readFloat("[game.exe+9F6154]+30C")
+  hpf192.Value=readFloat("[game.exe+9F615C]+30C")
+  hpf193.Value=readFloat("[game.exe+9F6164]+30C")
+  hpf194.Value=readFloat("[game.exe+9F616C]+30C")
+  hpf195.Value=readFloat("[game.exe+9F6174]+30C")
+  hpf196.Value=readFloat("[game.exe+9F617C]+30C")
+  hpf197.Value=readFloat("[game.exe+9F6184]+30C")
+  hpf198.Value=readFloat("[game.exe+9F618C]+30C")
 end
 function CETrainer_HachiReviveClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('HachiHP')
-  local mr2=AddressList.getMemoryRecordByDescription('HachiMaxHP')
-  mr.Value=mr2.Value
+  hpf199.Value=readFloat("[game.exe+9F608C]+310")
+  hpf200.Value=readFloat("[game.exe+9F6094]+310")
+  hpf201.Value=readFloat("[game.exe+9F609C]+310")
+  hpf202.Value=readFloat("[game.exe+9F60A4]+310")
+  hpf203.Value=readFloat("[game.exe+9F60AC]+310")
+  hpf204.Value=readFloat("[game.exe+9F60B4]+310")
+  hpf205.Value=readFloat("[game.exe+9F60BC]+310")
+  hpf206.Value=readFloat("[game.exe+9F60C4]+310")
+  hpf207.Value=readFloat("[game.exe+9F60CC]+310")
+  hpf208.Value=readFloat("[game.exe+9F60D4]+310")
+  hpf209.Value=readFloat("[game.exe+9F60DC]+310")
+  hpf210.Value=readFloat("[game.exe+9F60E4]+310")
+  hpf211.Value=readFloat("[game.exe+9F60EC]+310")
+  hpf212.Value=readFloat("[game.exe+9F60F4]+310")
+  hpf213.Value=readFloat("[game.exe+9F60FC]+310")
+  hpf214.Value=readFloat("[game.exe+9F6104]+310")
+  hpf215.Value=readFloat("[game.exe+9F610C]+310")
+  hpf216.Value=readFloat("[game.exe+9F6114]+310")
+  hpf217.Value=readFloat("[game.exe+9F611C]+310")
+  hpf218.Value=readFloat("[game.exe+9F6124]+310")
+  hpf219.Value=readFloat("[game.exe+9F612C]+310")
+  hpf220.Value=readFloat("[game.exe+9F6134]+310")
+  hpf221.Value=readFloat("[game.exe+9F613C]+310")
+  hpf222.Value=readFloat("[game.exe+9F6144]+310")
+  hpf223.Value=readFloat("[game.exe+9F614C]+310")
+  hpf224.Value=readFloat("[game.exe+9F6154]+310")
+  hpf225.Value=readFloat("[game.exe+9F615C]+310")
+  hpf226.Value=readFloat("[game.exe+9F6164]+310")
+  hpf227.Value=readFloat("[game.exe+9F616C]+310")
+  hpf228.Value=readFloat("[game.exe+9F6174]+310")
+  hpf229.Value=readFloat("[game.exe+9F617C]+310")
+  hpf230.Value=readFloat("[game.exe+9F6184]+310")
+  hpf231.Value=readFloat("[game.exe+9F618C]+310")
 end
 function CETrainer_ShadowZangetsuReviveClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ShadowZangetsuHP')
-  local mr2=AddressList.getMemoryRecordByDescription('ShadowZangetsuMaxHP')
-  mr.Value=mr2.Value
+  hpf232.Value=readFloat("[game.exe+9F608C]+314")
+  hpf233.Value=readFloat("[game.exe+9F6094]+314")
+  hpf234.Value=readFloat("[game.exe+9F609C]+314")
+  hpf235.Value=readFloat("[game.exe+9F60A4]+314")
+  hpf236.Value=readFloat("[game.exe+9F60AC]+314")
+  hpf237.Value=readFloat("[game.exe+9F60B4]+314")
+  hpf238.Value=readFloat("[game.exe+9F60BC]+314")
+  hpf239.Value=readFloat("[game.exe+9F60C4]+314")
+  hpf240.Value=readFloat("[game.exe+9F60CC]+314")
+  hpf241.Value=readFloat("[game.exe+9F60D4]+314")
+  hpf242.Value=readFloat("[game.exe+9F60DC]+314")
+  hpf243.Value=readFloat("[game.exe+9F60E4]+314")
+  hpf244.Value=readFloat("[game.exe+9F60EC]+314")
+  hpf245.Value=readFloat("[game.exe+9F60F4]+314")
+  hpf246.Value=readFloat("[game.exe+9F60FC]+314")
+  hpf247.Value=readFloat("[game.exe+9F6104]+314")
+  hpf248.Value=readFloat("[game.exe+9F610C]+314")
+  hpf249.Value=readFloat("[game.exe+9F6114]+314")
+  hpf250.Value=readFloat("[game.exe+9F611C]+314")
+  hpf251.Value=readFloat("[game.exe+9F6124]+314")
+  hpf252.Value=readFloat("[game.exe+9F612C]+314")
+  hpf253.Value=readFloat("[game.exe+9F6134]+314")
+  hpf254.Value=readFloat("[game.exe+9F613C]+314")
+  hpf255.Value=readFloat("[game.exe+9F6144]+314")
+  hpf256.Value=readFloat("[game.exe+9F614C]+314")
+  hpf257.Value=readFloat("[game.exe+9F6154]+314")
+  hpf258.Value=readFloat("[game.exe+9F615C]+314")
+  hpf259.Value=readFloat("[game.exe+9F6164]+314")
+  hpf260.Value=readFloat("[game.exe+9F616C]+314")
+  hpf261.Value=readFloat("[game.exe+9F6174]+314")
+  hpf262.Value=readFloat("[game.exe+9F617C]+314")
+  hpf263.Value=readFloat("[game.exe+9F6184]+314")
+  hpf264.Value=readFloat("[game.exe+9F618C]+314")
 end
 
 function CETrainer_MiriamLockClick(sender)
