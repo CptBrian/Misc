@@ -3337,8 +3337,6 @@ end
 --createHotkey(WPFreezeClick, VK_SHIFT, VK_KEY_2)
 --createHotkey(CharacterFreezeClick, VK_SHIFT, VK_KEY_3)
 
---TRAINERGENERATORSTART--
-
 --Uncomment the following line if this is a Cheat Table format trainer and you don't want CE to show (Tip, save as .CETRAINER alternatively)
 --hideAllCEWindows()
 
@@ -3655,5 +3653,3 @@ function CloseClick()
   closeCE()
   return caFree --onClick doesn't care, but onClose would like a result
 end
-
---TRAINERGENERATORSTOP--
