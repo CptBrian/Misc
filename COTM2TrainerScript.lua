@@ -2217,10 +2217,10 @@ end
 function CETrainer_DiscussClick(sender)
   shellExecute('https://www.speedrun.com/bscotm/thread/z1aun')
 end
-function CETrainer_CETrainer_MapsClick(sender)
+function CETrainer_MapsClick(sender)
   shellExecute('https://www.speedrun.com/bscotm/guide/1yzyn')
 end
-function CETrainer_CETrainer_ScriptClick(sender)
+function CETrainer_ScriptClick(sender)
   shellExecute('https://github.com/CptBrian/Misc/blob/master/COTM2TrainerScript.lua')
 end
 
