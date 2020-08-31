@@ -5683,16 +5683,307 @@ function CETrainer_NormalClick(sender)
   mrBR.Value=0
 end
 function CETrainer_LegendClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('StyleDifficulty')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    style.Value=0
+  end
+  if(saveslot.Value=="1") then
+    style2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    style3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    style4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    style5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    style6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    style7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    style8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    style9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    style10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    style11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    style12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    style13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    style14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    style15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    style16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    style17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    style18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    style19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    style20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    style21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    style22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    style23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    style24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    style25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    style26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    style27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    style28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    style29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    style30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    style31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    style32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    style33.Value=0
+  end
 end
 function CETrainer_VeteranClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('StyleDifficulty')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    style.Value=1
+  end
+  if(saveslot.Value=="1") then
+    style2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    style3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    style4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    style5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    style6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    style7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    style8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    style9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    style10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    style11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    style12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    style13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    style14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    style15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    style16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    style17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    style18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    style19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    style20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    style21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    style22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    style23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    style24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    style25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    style26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    style27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    style28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    style29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    style30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    style31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    style32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    style33.Value=1
+  end
 end
 function CETrainer_CasualClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('StyleDifficulty')
-  mr.Value=2
+  if(saveslot.Value=="0") then
+    style.Value=2
+  end
+  if(saveslot.Value=="1") then
+    style2.Value=2
+  end
+  if(saveslot.Value=="2") then
+    style3.Value=2
+  end
+  if(saveslot.Value=="3") then
+    style4.Value=2
+  end
+  if(saveslot.Value=="4") then
+    style5.Value=2
+  end
+  if(saveslot.Value=="5") then
+    style6.Value=2
+  end
+  if(saveslot.Value=="6") then
+    style7.Value=2
+  end
+  if(saveslot.Value=="7") then
+    style8.Value=2
+  end
+  if(saveslot.Value=="8") then
+    style9.Value=2
+  end
+  if(saveslot.Value=="9") then
+    style10.Value=2
+  end
+  if(saveslot.Value=="10") then
+    style11.Value=2
+  end
+  if(saveslot.Value=="11") then
+    style12.Value=2
+  end
+  if(saveslot.Value=="12") then
+    style13.Value=2
+  end
+  if(saveslot.Value=="13") then
+    style14.Value=2
+  end
+  if(saveslot.Value=="14") then
+    style15.Value=2
+  end
+  if(saveslot.Value=="15") then
+    style16.Value=2
+  end
+  if(saveslot.Value=="16") then
+    style17.Value=2
+  end
+  if(saveslot.Value=="17") then
+    style18.Value=2
+  end
+  if(saveslot.Value=="18") then
+    style19.Value=2
+  end
+  if(saveslot.Value=="19") then
+    style20.Value=2
+  end
+  if(saveslot.Value=="20") then
+    style21.Value=2
+  end
+  if(saveslot.Value=="21") then
+    style22.Value=2
+  end
+  if(saveslot.Value=="22") then
+    style23.Value=2
+  end
+  if(saveslot.Value=="23") then
+    style24.Value=2
+  end
+  if(saveslot.Value=="24") then
+    style25.Value=2
+  end
+  if(saveslot.Value=="25") then
+    style26.Value=2
+  end
+  if(saveslot.Value=="26") then
+    style27.Value=2
+  end
+  if(saveslot.Value=="27") then
+    style28.Value=2
+  end
+  if(saveslot.Value=="28") then
+    style29.Value=2
+  end
+  if(saveslot.Value=="29") then
+    style30.Value=2
+  end
+  if(saveslot.Value=="30") then
+    style31.Value=2
+  end
+  if(saveslot.Value=="31") then
+    style32.Value=2
+  end
+  if(saveslot.Value=="32") then
+    style33.Value=2
+  end
 end
 
 function CETrainer_PowerGloveLockClick(sender)
@@ -6986,8 +7277,799 @@ function CETrainer_CETimer4Timer(sender)
   local value=memoryrecord_getValue(memrec)
   control_setCaption(CETrainer_BossRushProgressLabel, value)
 end
-function CETrainer_CETimer5Timer(sender)
-  --nothing
+function CETrainer_StyleImagesTimer(sender)
+  if(saveslot.Value=="0") then
+    if(style.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="1") then
+    if(style2.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style2.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style2.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="2") then
+    if(style3.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style3.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style3.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="3") then
+    if(style4.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style4.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style4.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="4") then
+    if(style5.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style5.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style5.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="5") then
+    if(style6.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style6.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style6.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="6") then
+    if(style7.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style7.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style7.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="7") then
+    if(style8.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style8.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style8.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="8") then
+    if(style9.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style9.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style9.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="9") then
+    if(style10.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style10.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style10.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="10") then
+    if(style11.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style11.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style11.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="11") then
+    if(style12.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style12.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style12.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="12") then
+    if(style13.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style13.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style13.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="13") then
+    if(style14.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style14.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style14.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="14") then
+    if(style15.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style15.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style15.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="15") then
+    if(style16.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style16.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style16.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="16") then
+    if(style17.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style17.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style17.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="17") then
+    if(style18.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style18.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style18.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="18") then
+    if(style19.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style19.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style19.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="19") then
+    if(style20.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style20.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style20.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="20") then
+    if(style21.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style21.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style21.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="21") then
+    if(style22.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style22.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style22.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="22") then
+    if(style23.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style23.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style23.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="23") then
+    if(style24.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style24.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style24.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="24") then
+    if(style25.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style25.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style25.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="25") then
+    if(style26.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style26.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style26.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="26") then
+    if(style27.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style27.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style27.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="27") then
+    if(style28.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style28.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style28.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="28") then
+    if(style29.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style29.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style29.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="29") then
+    if(style30.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style30.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style30.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="30") then
+    if(style31.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style31.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style31.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="31") then
+    if(style32.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style32.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style32.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
+  if(saveslot.Value=="32") then
+    if(style33.Value=="0") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=false
+      CETrainer_leg2.Visible=true
+    elseif(style33.Value=="1") then
+      --CETrainer_cas1.Visible=true
+      CETrainer_cas2.Visible=false
+      --CETrainer_vet1.Visible=false
+      CETrainer_vet2.Visible=true
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    elseif(style33.Value=="2") then
+      --CETrainer_cas1.Visible=false
+      CETrainer_cas2.Visible=true
+      --CETrainer_vet1.Visible=true
+      CETrainer_vet2.Visible=false
+      --CETrainer_leg1.Visible=true
+      CETrainer_leg2.Visible=false
+    end
+  end
 end
 --[[
 function CETrainer_CETimer6Timer(sender)
@@ -7534,6 +8616,39 @@ armor30=AddressList.getMemoryRecordByDescription('Armor Slot 30')
 armor31=AddressList.getMemoryRecordByDescription('Armor Slot 31')
 armor32=AddressList.getMemoryRecordByDescription('Armor Slot 32')
 armor33=AddressList.getMemoryRecordByDescription('BR Upgrades Armor')
+style=AddressList.getMemoryRecordByDescription('StyleDifficulty')
+style2=AddressList.getMemoryRecordByDescription('Style Slot 2')
+style3=AddressList.getMemoryRecordByDescription('Style Slot 3')
+style4=AddressList.getMemoryRecordByDescription('Style Slot 4')
+style5=AddressList.getMemoryRecordByDescription('Style Slot 5')
+style6=AddressList.getMemoryRecordByDescription('Style Slot 6')
+style7=AddressList.getMemoryRecordByDescription('Style Slot 7')
+style8=AddressList.getMemoryRecordByDescription('Style Slot 8')
+style9=AddressList.getMemoryRecordByDescription('Style Slot 9')
+style10=AddressList.getMemoryRecordByDescription('Style Slot 10')
+style11=AddressList.getMemoryRecordByDescription('Style Slot 11')
+style12=AddressList.getMemoryRecordByDescription('Style Slot 12')
+style13=AddressList.getMemoryRecordByDescription('Style Slot 13')
+style14=AddressList.getMemoryRecordByDescription('Style Slot 14')
+style15=AddressList.getMemoryRecordByDescription('Style Slot 15')
+style16=AddressList.getMemoryRecordByDescription('Style Slot 16')
+style17=AddressList.getMemoryRecordByDescription('Style Slot 17')
+style18=AddressList.getMemoryRecordByDescription('Style Slot 18')
+style19=AddressList.getMemoryRecordByDescription('Style Slot 19')
+style20=AddressList.getMemoryRecordByDescription('Style Slot 20')
+style21=AddressList.getMemoryRecordByDescription('Style Slot 21')
+style22=AddressList.getMemoryRecordByDescription('Style Slot 22')
+style23=AddressList.getMemoryRecordByDescription('Style Slot 23')
+style24=AddressList.getMemoryRecordByDescription('Style Slot 24')
+style25=AddressList.getMemoryRecordByDescription('Style Slot 25')
+style26=AddressList.getMemoryRecordByDescription('Style Slot 26')
+style27=AddressList.getMemoryRecordByDescription('Style Slot 27')
+style28=AddressList.getMemoryRecordByDescription('Style Slot 28')
+style29=AddressList.getMemoryRecordByDescription('Style Slot 29')
+style30=AddressList.getMemoryRecordByDescription('Style Slot 30')
+style31=AddressList.getMemoryRecordByDescription('Style Slot 31')
+style32=AddressList.getMemoryRecordByDescription('Style Slot 32')
+style33=AddressList.getMemoryRecordByDescription('BossRushStyleDifficulty')
 
 getAutoAttachList().add("game.exe")
 gPlaySoundOnAction=false
