@@ -3644,61 +3644,1621 @@ function CETrainer_ShadowZangetsuReviveClick(sender)
   hpf264.Value=readFloat("[game.exe+9F618C]+314")
 end
 
+function CETrainer_ZangetsuLockClick(sender)
+  if(saveslot.Value=="0") then
+    zavailable.Value=0
+  end
+  if(saveslot.Value=="1") then
+    zavailable2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    zavailable3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    zavailable4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    zavailable5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    zavailable6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    zavailable7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    zavailable8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    zavailable9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    zavailable10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    zavailable11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    zavailable12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    zavailable13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    zavailable14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    zavailable15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    zavailable16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    zavailable17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    zavailable18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    zavailable19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    zavailable20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    zavailable21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    zavailable22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    zavailable23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    zavailable24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    zavailable25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    zavailable26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    zavailable27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    zavailable28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    zavailable29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    zavailable30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    zavailable31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    zavailable32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    zavailable33.Value=0
+  end
+end
+function CETrainer_ZangetsuUnlockClick(sender)
+  if(saveslot.Value=="0") then
+    zavailable.Value=1
+  end
+  if(saveslot.Value=="1") then
+    zavailable2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    zavailable3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    zavailable4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    zavailable5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    zavailable6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    zavailable7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    zavailable8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    zavailable9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    zavailable10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    zavailable11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    zavailable12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    zavailable13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    zavailable14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    zavailable15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    zavailable16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    zavailable17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    zavailable18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    zavailable19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    zavailable20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    zavailable21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    zavailable22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    zavailable23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    zavailable24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    zavailable25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    zavailable26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    zavailable27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    zavailable28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    zavailable29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    zavailable30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    zavailable31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    zavailable32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    zavailable33.Value=1
+  end
+end
 function CETrainer_MiriamLockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('MiriamAvailable')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    mavailable.Value=0
+  end
+  if(saveslot.Value=="1") then
+    mavailable2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    mavailable3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    mavailable4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    mavailable5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    mavailable6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    mavailable7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    mavailable8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    mavailable9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    mavailable10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    mavailable11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    mavailable12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    mavailable13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    mavailable14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    mavailable15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    mavailable16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    mavailable17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    mavailable18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    mavailable19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    mavailable20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    mavailable21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    mavailable22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    mavailable23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    mavailable24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    mavailable25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    mavailable26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    mavailable27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    mavailable28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    mavailable29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    mavailable30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    mavailable31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    mavailable32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    mavailable33.Value=0
+  end
 end
 function CETrainer_MiriamUnlockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('MiriamAvailable')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    mavailable.Value=1
+  end
+  if(saveslot.Value=="1") then
+    mavailable2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    mavailable3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    mavailable4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    mavailable5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    mavailable6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    mavailable7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    mavailable8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    mavailable9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    mavailable10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    mavailable11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    mavailable12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    mavailable13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    mavailable14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    mavailable15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    mavailable16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    mavailable17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    mavailable18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    mavailable19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    mavailable20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    mavailable21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    mavailable22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    mavailable23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    mavailable24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    mavailable25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    mavailable26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    mavailable27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    mavailable28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    mavailable29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    mavailable30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    mavailable31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    mavailable32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    mavailable33.Value=1
+  end
 end
 function CETrainer_AlfredLockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('AlfredAvailable')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    aavailable.Value=0
+  end
+  if(saveslot.Value=="1") then
+    aavailable2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    aavailable3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    aavailable4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    aavailable5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    aavailable6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    aavailable7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    aavailable8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    aavailable9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    aavailable10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    aavailable11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    aavailable12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    aavailable13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    aavailable14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    aavailable15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    aavailable16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    aavailable17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    aavailable18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    aavailable19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    aavailable20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    aavailable21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    aavailable22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    aavailable23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    aavailable24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    aavailable25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    aavailable26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    aavailable27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    aavailable28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    aavailable29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    aavailable30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    aavailable31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    aavailable32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    aavailable33.Value=0
+  end
 end
 function CETrainer_AlfredUnlockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('AlfredAvailable')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    aavailable.Value=1
+  end
+  if(saveslot.Value=="1") then
+    aavailable2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    aavailable3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    aavailable4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    aavailable5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    aavailable6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    aavailable7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    aavailable8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    aavailable9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    aavailable10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    aavailable11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    aavailable12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    aavailable13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    aavailable14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    aavailable15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    aavailable16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    aavailable17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    aavailable18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    aavailable19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    aavailable20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    aavailable21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    aavailable22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    aavailable23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    aavailable24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    aavailable25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    aavailable26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    aavailable27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    aavailable28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    aavailable29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    aavailable30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    aavailable31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    aavailable32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    aavailable33.Value=1
+  end
 end
 function CETrainer_GebelLockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('GebelAvailable')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    gavailable.Value=0
+  end
+  if(saveslot.Value=="1") then
+    gavailable2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    gavailable3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    gavailable4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    gavailable5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    gavailable6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    gavailable7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    gavailable8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    gavailable9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    gavailable10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    gavailable11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    gavailable12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    gavailable13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    gavailable14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    gavailable15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    gavailable16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    gavailable17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    gavailable18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    gavailable19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    gavailable20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    gavailable21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    gavailable22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    gavailable23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    gavailable24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    gavailable25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    gavailable26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    gavailable27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    gavailable28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    gavailable29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    gavailable30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    gavailable31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    gavailable32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    gavailable33.Value=0
+  end
 end
 function CETrainer_GebelUnlockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('GebelAvailable')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    gavailable.Value=1
+  end
+  if(saveslot.Value=="1") then
+    gavailable2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    gavailable3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    gavailable4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    gavailable5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    gavailable6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    gavailable7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    gavailable8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    gavailable9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    gavailable10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    gavailable11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    gavailable12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    gavailable13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    gavailable14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    gavailable15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    gavailable16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    gavailable17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    gavailable18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    gavailable19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    gavailable20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    gavailable21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    gavailable22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    gavailable23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    gavailable24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    gavailable25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    gavailable26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    gavailable27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    gavailable28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    gavailable29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    gavailable30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    gavailable31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    gavailable32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    gavailable33.Value=1
+  end
 end
 function CETrainer_DominiqueLockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('DominiqueAvailable')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    davailable.Value=0
+  end
+  if(saveslot.Value=="1") then
+    davailable2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    davailable3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    davailable4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    davailable5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    davailable6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    davailable7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    davailable8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    davailable9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    davailable10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    davailable11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    davailable12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    davailable13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    davailable14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    davailable15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    davailable16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    davailable17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    davailable18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    davailable19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    davailable20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    davailable21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    davailable22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    davailable23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    davailable24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    davailable25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    davailable26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    davailable27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    davailable28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    davailable29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    davailable30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    davailable31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    davailable32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    davailable33.Value=0
+  end
 end
 function CETrainer_DominiqueUnlockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('DominiqueAvailable')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    davailable.Value=1
+  end
+  if(saveslot.Value=="1") then
+    davailable2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    davailable3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    davailable4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    davailable5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    davailable6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    davailable7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    davailable8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    davailable9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    davailable10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    davailable11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    davailable12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    davailable13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    davailable14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    davailable15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    davailable16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    davailable17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    davailable18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    davailable19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    davailable20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    davailable21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    davailable22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    davailable23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    davailable24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    davailable25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    davailable26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    davailable27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    davailable28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    davailable29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    davailable30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    davailable31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    davailable32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    davailable33.Value=1
+  end
 end
 function CETrainer_RobertLockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('RobertAvailable')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    ravailable.Value=0
+  end
+  if(saveslot.Value=="1") then
+    ravailable2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    ravailable3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    ravailable4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    ravailable5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    ravailable6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    ravailable7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    ravailable8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    ravailable9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    ravailable10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    ravailable11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    ravailable12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    ravailable13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    ravailable14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    ravailable15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    ravailable16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    ravailable17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    ravailable18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    ravailable19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    ravailable20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    ravailable21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    ravailable22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    ravailable23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    ravailable24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    ravailable25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    ravailable26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    ravailable27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    ravailable28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    ravailable29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    ravailable30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    ravailable31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    ravailable32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    ravailable33.Value=0
+  end
 end
 function CETrainer_RobertUnlockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('RobertAvailable')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    ravailable.Value=1
+  end
+  if(saveslot.Value=="1") then
+    ravailable2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    ravailable3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    ravailable4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    ravailable5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    ravailable6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    ravailable7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    ravailable8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    ravailable9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    ravailable10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    ravailable11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    ravailable12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    ravailable13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    ravailable14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    ravailable15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    ravailable16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    ravailable17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    ravailable18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    ravailable19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    ravailable20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    ravailable21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    ravailable22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    ravailable23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    ravailable24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    ravailable25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    ravailable26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    ravailable27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    ravailable28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    ravailable29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    ravailable30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    ravailable31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    ravailable32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    ravailable33.Value=1
+  end
 end
 function CETrainer_HachiLockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('HachiAvailable')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    havailable.Value=0
+  end
+  if(saveslot.Value=="1") then
+    havailable2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    havailable3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    havailable4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    havailable5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    havailable6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    havailable7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    havailable8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    havailable9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    havailable10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    havailable11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    havailable12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    havailable13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    havailable14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    havailable15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    havailable16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    havailable17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    havailable18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    havailable19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    havailable20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    havailable21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    havailable22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    havailable23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    havailable24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    havailable25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    havailable26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    havailable27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    havailable28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    havailable29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    havailable30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    havailable31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    havailable32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    havailable33.Value=0
+  end
 end
 function CETrainer_HachiUnlockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('HachiAvailable')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    havailable.Value=1
+  end
+  if(saveslot.Value=="1") then
+    havailable2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    havailable3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    havailable4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    havailable5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    havailable6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    havailable7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    havailable8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    havailable9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    havailable10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    havailable11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    havailable12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    havailable13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    havailable14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    havailable15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    havailable16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    havailable17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    havailable18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    havailable19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    havailable20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    havailable21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    havailable22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    havailable23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    havailable24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    havailable25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    havailable26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    havailable27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    havailable28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    havailable29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    havailable30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    havailable31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    havailable32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    havailable33.Value=1
+  end
 end
 function CETrainer_ShadowZangetsuLockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    savailable.Value=0
+  end
+  if(saveslot.Value=="1") then
+    savailable2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    savailable3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    savailable4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    savailable5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    savailable6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    savailable7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    savailable8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    savailable9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    savailable10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    savailable11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    savailable12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    savailable13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    savailable14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    savailable15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    savailable16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    savailable17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    savailable18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    savailable19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    savailable20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    savailable21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    savailable22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    savailable23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    savailable24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    savailable25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    savailable26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    savailable27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    savailable28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    savailable29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    savailable30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    savailable31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    savailable32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    savailable33.Value=0
+  end
 end
 function CETrainer_ShadowZangetsuUnlockClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    savailable.Value=1
+  end
+  if(saveslot.Value=="1") then
+    savailable2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    savailable3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    savailable4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    savailable5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    savailable6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    savailable7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    savailable8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    savailable9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    savailable10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    savailable11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    savailable12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    savailable13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    savailable14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    savailable15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    savailable16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    savailable17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    savailable18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    savailable19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    savailable20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    savailable21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    savailable22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    savailable23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    savailable24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    savailable25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    savailable26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    savailable27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    savailable28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    savailable29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    savailable30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    savailable31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    savailable32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    savailable33.Value=1
+  end
 end
 
 
@@ -6394,7 +7954,7 @@ end
 function CETrainer_SRDCClick(sender)
   shellExecute('https://www.speedrun.com/bscotm2')
 end
-function CETrainer_StatsClick(sender)
+function CETrainer_DatabaseClick(sender)
   shellExecute('https://www.speedrun.com/bscotm2/guide/kms28')
 end
 function CETrainer_DiscussClick(sender)
@@ -8649,6 +10209,270 @@ style30=AddressList.getMemoryRecordByDescription('Style Slot 30')
 style31=AddressList.getMemoryRecordByDescription('Style Slot 31')
 style32=AddressList.getMemoryRecordByDescription('Style Slot 32')
 style33=AddressList.getMemoryRecordByDescription('BossRushStyleDifficulty')
+zavailable=AddressList.getMemoryRecordByDescription('ZangetsuAvailable')
+zavailable2=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 2')
+zavailable3=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 3')
+zavailable4=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 4')
+zavailable5=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 5')
+zavailable6=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 6')
+zavailable7=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 7')
+zavailable8=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 8')
+zavailable9=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 9')
+zavailable10=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 10')
+zavailable11=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 11')
+zavailable12=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 12')
+zavailable13=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 13')
+zavailable14=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 14')
+zavailable15=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 15')
+zavailable16=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 16')
+zavailable17=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 17')
+zavailable18=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 18')
+zavailable19=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 19')
+zavailable20=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 20')
+zavailable21=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 21')
+zavailable22=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 22')
+zavailable23=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 23')
+zavailable24=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 24')
+zavailable25=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 25')
+zavailable26=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 26')
+zavailable27=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 27')
+zavailable28=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 28')
+zavailable29=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 29')
+zavailable30=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 30')
+zavailable31=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 31')
+zavailable32=AddressList.getMemoryRecordByDescription('ZangetsuAvailable Slot 32')
+zavailable33=AddressList.getMemoryRecordByDescription('Zangetsu Available BR')
+mavailable=AddressList.getMemoryRecordByDescription('MiriamAvailable')
+mavailable2=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 2')
+mavailable3=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 3')
+mavailable4=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 4')
+mavailable5=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 5')
+mavailable6=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 6')
+mavailable7=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 7')
+mavailable8=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 8')
+mavailable9=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 9')
+mavailable10=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 10')
+mavailable11=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 11')
+mavailable12=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 12')
+mavailable13=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 13')
+mavailable14=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 14')
+mavailable15=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 15')
+mavailable16=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 16')
+mavailable17=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 17')
+mavailable18=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 18')
+mavailable19=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 19')
+mavailable20=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 20')
+mavailable21=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 21')
+mavailable22=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 22')
+mavailable23=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 23')
+mavailable24=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 24')
+mavailable25=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 25')
+mavailable26=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 26')
+mavailable27=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 27')
+mavailable28=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 28')
+mavailable29=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 29')
+mavailable30=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 30')
+mavailable31=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 31')
+mavailable32=AddressList.getMemoryRecordByDescription('MiriamAvailable Slot 32')
+mavailable33=AddressList.getMemoryRecordByDescription('Miriam Available BR')
+aavailable=AddressList.getMemoryRecordByDescription('AlfredAvailable')
+aavailable2=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 2')
+aavailable3=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 3')
+aavailable4=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 4')
+aavailable5=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 5')
+aavailable6=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 6')
+aavailable7=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 7')
+aavailable8=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 8')
+aavailable9=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 9')
+aavailable10=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 10')
+aavailable11=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 11')
+aavailable12=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 12')
+aavailable13=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 13')
+aavailable14=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 14')
+aavailable15=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 15')
+aavailable16=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 16')
+aavailable17=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 17')
+aavailable18=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 18')
+aavailable19=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 19')
+aavailable20=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 20')
+aavailable21=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 21')
+aavailable22=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 22')
+aavailable23=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 23')
+aavailable24=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 24')
+aavailable25=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 25')
+aavailable26=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 26')
+aavailable27=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 27')
+aavailable28=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 28')
+aavailable29=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 29')
+aavailable30=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 30')
+aavailable31=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 31')
+aavailable32=AddressList.getMemoryRecordByDescription('AlfredAvailable Slot 32')
+aavailable33=AddressList.getMemoryRecordByDescription('Alfred Available BR')
+gavailable=AddressList.getMemoryRecordByDescription('GebelAvailable')
+gavailable2=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 2')
+gavailable3=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 3')
+gavailable4=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 4')
+gavailable5=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 5')
+gavailable6=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 6')
+gavailable7=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 7')
+gavailable8=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 8')
+gavailable9=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 9')
+gavailable10=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 10')
+gavailable11=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 11')
+gavailable12=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 12')
+gavailable13=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 13')
+gavailable14=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 14')
+gavailable15=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 15')
+gavailable16=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 16')
+gavailable17=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 17')
+gavailable18=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 18')
+gavailable19=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 19')
+gavailable20=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 20')
+gavailable21=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 21')
+gavailable22=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 22')
+gavailable23=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 23')
+gavailable24=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 24')
+gavailable25=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 25')
+gavailable26=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 26')
+gavailable27=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 27')
+gavailable28=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 28')
+gavailable29=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 29')
+gavailable30=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 30')
+gavailable31=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 31')
+gavailable32=AddressList.getMemoryRecordByDescription('GebelAvailable Slot 32')
+gavailable33=AddressList.getMemoryRecordByDescription('Gebel Available BR')
+davailable=AddressList.getMemoryRecordByDescription('DominiqueAvailable')
+davailable2=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 2')
+davailable3=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 3')
+davailable4=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 4')
+davailable5=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 5')
+davailable6=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 6')
+davailable7=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 7')
+davailable8=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 8')
+davailable9=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 9')
+davailable10=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 10')
+davailable11=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 11')
+davailable12=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 12')
+davailable13=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 13')
+davailable14=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 14')
+davailable15=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 15')
+davailable16=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 16')
+davailable17=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 17')
+davailable18=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 18')
+davailable19=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 19')
+davailable20=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 20')
+davailable21=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 21')
+davailable22=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 22')
+davailable23=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 23')
+davailable24=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 24')
+davailable25=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 25')
+davailable26=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 26')
+davailable27=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 27')
+davailable28=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 28')
+davailable29=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 29')
+davailable30=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 30')
+davailable31=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 31')
+davailable32=AddressList.getMemoryRecordByDescription('DominiqueAvailable Slot 32')
+davailable33=AddressList.getMemoryRecordByDescription('Dominique Available BR')
+ravailable=AddressList.getMemoryRecordByDescription('RobertAvailable')
+ravailable2=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 2')
+ravailable3=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 3')
+ravailable4=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 4')
+ravailable5=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 5')
+ravailable6=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 6')
+ravailable7=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 7')
+ravailable8=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 8')
+ravailable9=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 9')
+ravailable10=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 10')
+ravailable11=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 11')
+ravailable12=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 12')
+ravailable13=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 13')
+ravailable14=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 14')
+ravailable15=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 15')
+ravailable16=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 16')
+ravailable17=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 17')
+ravailable18=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 18')
+ravailable19=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 19')
+ravailable20=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 20')
+ravailable21=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 21')
+ravailable22=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 22')
+ravailable23=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 23')
+ravailable24=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 24')
+ravailable25=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 25')
+ravailable26=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 26')
+ravailable27=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 27')
+ravailable28=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 28')
+ravailable29=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 29')
+ravailable30=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 30')
+ravailable31=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 31')
+ravailable32=AddressList.getMemoryRecordByDescription('RobertAvailable Slot 32')
+ravailable33=AddressList.getMemoryRecordByDescription('Robert Available BR')
+havailable=AddressList.getMemoryRecordByDescription('HachiAvailable')
+havailable2=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 2')
+havailable3=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 3')
+havailable4=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 4')
+havailable5=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 5')
+havailable6=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 6')
+havailable7=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 7')
+havailable8=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 8')
+havailable9=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 9')
+havailable10=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 10')
+havailable11=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 11')
+havailable12=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 12')
+havailable13=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 13')
+havailable14=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 14')
+havailable15=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 15')
+havailable16=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 16')
+havailable17=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 17')
+havailable18=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 18')
+havailable19=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 19')
+havailable20=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 20')
+havailable21=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 21')
+havailable22=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 22')
+havailable23=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 23')
+havailable24=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 24')
+havailable25=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 25')
+havailable26=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 26')
+havailable27=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 27')
+havailable28=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 28')
+havailable29=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 29')
+havailable30=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 30')
+havailable31=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 31')
+havailable32=AddressList.getMemoryRecordByDescription('HachiAvailable Slot 32')
+havailable33=AddressList.getMemoryRecordByDescription('Hachi Available BR')
+savailable=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable')
+savailable2=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 2')
+savailable3=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 3')
+savailable4=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 4')
+savailable5=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 5')
+savailable6=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 6')
+savailable7=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 7')
+savailable8=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 8')
+savailable9=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 9')
+savailable10=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 10')
+savailable11=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 11')
+savailable12=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 12')
+savailable13=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 13')
+savailable14=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 14')
+savailable15=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 15')
+savailable16=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 16')
+savailable17=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 17')
+savailable18=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 18')
+savailable19=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 19')
+savailable20=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 20')
+savailable21=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 21')
+savailable22=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 22')
+savailable23=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 23')
+savailable24=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 24')
+savailable25=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 25')
+savailable26=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 26')
+savailable27=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 27')
+savailable28=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 28')
+savailable29=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 29')
+savailable30=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 30')
+savailable31=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 31')
+savailable32=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 32')
+savailable33=AddressList.getMemoryRecordByDescription('ShadowZangetsu Available BR')
 
 getAutoAttachList().add("game.exe")
 gPlaySoundOnAction=false
@@ -8662,4 +10486,7 @@ function CloseClick()
   --called by the close button onClick event, and when closing the form
   closeCE()
   return caFree --onClick doesn't care, but onClose would like a result
+end
+function CETrainer_DatabaseClick(sender)
+
 end
