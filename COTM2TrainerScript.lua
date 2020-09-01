@@ -10472,7 +10472,7 @@ savailable29=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable S
 savailable30=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 30')
 savailable31=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 31')
 savailable32=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 32')
-savailable33=AddressList.getMemoryRecordByDescription('ShadowZangetsu Available BR')
+savailable33=AddressList.getMemoryRecordByDescription('Shadow Zangetsu Available BR')
 
 getAutoAttachList().add("game.exe")
 gPlaySoundOnAction=false
