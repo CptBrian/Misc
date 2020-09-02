@@ -9567,793 +9567,496 @@ end
 function CETrainer_StyleImagesTimer(sender)
   if(saveslot.Value=="0") then
     if(style.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="1") then
     if(style2.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style2.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style2.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="2") then
     if(style3.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style3.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style3.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="3") then
     if(style4.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style4.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style4.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="4") then
     if(style5.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style5.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style5.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="5") then
     if(style6.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style6.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style6.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="6") then
     if(style7.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style7.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style7.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="7") then
     if(style8.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style8.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style8.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="8") then
     if(style9.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style9.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style9.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="9") then
     if(style10.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style10.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style10.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="10") then
     if(style11.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style11.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style11.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="11") then
     if(style12.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style12.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style12.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="12") then
     if(style13.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style13.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style13.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="13") then
     if(style14.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style14.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style14.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="14") then
     if(style15.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style15.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style15.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="15") then
     if(style16.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style16.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style16.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="16") then
     if(style17.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style17.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style17.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="17") then
     if(style18.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style18.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style18.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="18") then
     if(style19.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style19.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style19.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="19") then
     if(style20.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style20.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style20.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="20") then
     if(style21.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style21.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style21.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="21") then
     if(style22.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style22.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style22.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="22") then
     if(style23.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style23.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style23.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="23") then
     if(style24.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style24.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style24.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="24") then
     if(style25.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style25.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style25.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="25") then
     if(style26.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style26.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style26.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="26") then
     if(style27.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style27.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style27.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="27") then
     if(style28.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style28.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style28.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="28") then
     if(style29.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style29.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style29.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="29") then
     if(style30.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style30.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style30.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="30") then
     if(style31.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style31.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style31.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="31") then
     if(style32.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style32.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style32.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
   if(saveslot.Value=="32") then
     if(style33.Value=="0") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=false
       CETrainer_leg2.Visible=true
     elseif(style33.Value=="1") then
-      --CETrainer_cas1.Visible=true
       CETrainer_cas2.Visible=false
-      --CETrainer_vet1.Visible=false
       CETrainer_vet2.Visible=true
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     elseif(style33.Value=="2") then
-      --CETrainer_cas1.Visible=false
       CETrainer_cas2.Visible=true
-      --CETrainer_vet1.Visible=true
       CETrainer_vet2.Visible=false
-      --CETrainer_leg1.Visible=true
       CETrainer_leg2.Visible=false
     end
   end
