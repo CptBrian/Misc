@@ -6571,7 +6571,7 @@ function CETrainer_RoomReloadClick(sender)
   mr.Value=4 --Starts room reload
   sleep(400) --Necessary duration to prevent breaking the game when setting next value
   mr.Value=8 --Necessary to prevent endless looping in Boss Rush
-  sleep(400) --To prevent user from breaking the game with early reloads
+  sleep(450) --To prevent user from breaking the game with early reloads
   --Still breaks sometimes when using it during cutscenes
 end
 
