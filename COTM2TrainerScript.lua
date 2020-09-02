@@ -8439,7 +8439,7 @@ function CETrainer_DatabaseClick(sender)
   shellExecute('https://www.speedrun.com/bscotm2/guide/kms28')
 end
 function CETrainer_DiscussClick(sender)
-  shellExecute('https://www.speedrun.com/bscotm/thread/z1aun')
+  shellExecute('https://www.speedrun.com/bscotm2/thread/mwxj3')
 end
 function CETrainer_MapsClick(sender)
   shellExecute('https://www.speedrun.com/bscotm/guide/1yzyn')
@@ -11822,7 +11822,4 @@ function CloseClick()
   --called by the close button onClick event, and when closing the form
   closeCE()
   return caFree --onClick doesn't care, but onClose would like a result
-end
-function CETrainer_DatabaseClick(sender)
-
 end
