@@ -7219,28 +7219,509 @@ function CETrainer_FillMaxWPClick(sender)
 end
 
 function CETrainer_UltimateTypeClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ZangetsuType')
-  mr.Value=2
+  if(saveslot.Value=="0") then
+    zangtype.Value=2
+  end
+  if(saveslot.Value=="1") then
+    zangtype2.Value=2
+  end
+  if(saveslot.Value=="2") then
+    zangtype3.Value=2
+  end
+  if(saveslot.Value=="3") then
+    zangtype4.Value=2
+  end
+  if(saveslot.Value=="4") then
+    zangtype5.Value=2
+  end
+  if(saveslot.Value=="5") then
+    zangtype6.Value=2
+  end
+  if(saveslot.Value=="6") then
+    zangtype7.Value=2
+  end
+  if(saveslot.Value=="7") then
+    zangtype8.Value=2
+  end
+  if(saveslot.Value=="8") then
+    zangtype9.Value=2
+  end
+  if(saveslot.Value=="9") then
+    zangtype10.Value=2
+  end
+  if(saveslot.Value=="10") then
+    zangtype11.Value=2
+  end
+  if(saveslot.Value=="11") then
+    zangtype12.Value=2
+  end
+  if(saveslot.Value=="12") then
+    zangtype13.Value=2
+  end
+  if(saveslot.Value=="13") then
+    zangtype14.Value=2
+  end
+  if(saveslot.Value=="14") then
+    zangtype15.Value=2
+  end
+  if(saveslot.Value=="15") then
+    zangtype16.Value=2
+  end
+  if(saveslot.Value=="16") then
+    zangtype17.Value=2
+  end
+  if(saveslot.Value=="17") then
+    zangtype18.Value=2
+  end
+  if(saveslot.Value=="18") then
+    zangtype19.Value=2
+  end
+  if(saveslot.Value=="19") then
+    zangtype20.Value=2
+  end
+  if(saveslot.Value=="20") then
+    zangtype21.Value=2
+  end
+  if(saveslot.Value=="21") then
+    zangtype22.Value=2
+  end
+  if(saveslot.Value=="22") then
+    zangtype23.Value=2
+  end
+  if(saveslot.Value=="23") then
+    zangtype24.Value=2
+  end
+  if(saveslot.Value=="24") then
+    zangtype25.Value=2
+  end
+  if(saveslot.Value=="25") then
+    zangtype26.Value=2
+  end
+  if(saveslot.Value=="26") then
+    zangtype27.Value=2
+  end
+  if(saveslot.Value=="27") then
+    zangtype28.Value=2
+  end
+  if(saveslot.Value=="28") then
+    zangtype29.Value=2
+  end
+  if(saveslot.Value=="29") then
+    zangtype30.Value=2
+  end
+  if(saveslot.Value=="30") then
+    zangtype31.Value=2
+  end
+  if(saveslot.Value=="31") then
+    zangtype32.Value=2
+  end
+  if(saveslot.Value=="32") then
+    zangtype33.Value=2
+  end
 end
 function CETrainer_StaticTypeClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ZangetsuType')
-  mr.Value=1
+  if(saveslot.Value=="0") then
+    zangtype.Value=1
+  end
+  if(saveslot.Value=="1") then
+    zangtype2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    zangtype3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    zangtype4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    zangtype5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    zangtype6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    zangtype7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    zangtype8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    zangtype9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    zangtype10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    zangtype11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    zangtype12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    zangtype13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    zangtype14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    zangtype15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    zangtype16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    zangtype17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    zangtype18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    zangtype19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    zangtype20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    zangtype21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    zangtype22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    zangtype23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    zangtype24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    zangtype25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    zangtype26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    zangtype27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    zangtype28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    zangtype29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    zangtype30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    zangtype31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    zangtype32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    zangtype33.Value=1
+  end
 end
 function CETrainer_NormalTypeClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('ZangetsuType')
-  mr.Value=0
+  if(saveslot.Value=="0") then
+    zangtype.Value=0
+  end
+  if(saveslot.Value=="1") then
+    zangtype2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    zangtype3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    zangtype4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    zangtype5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    zangtype6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    zangtype7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    zangtype8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    zangtype9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    zangtype10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    zangtype11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    zangtype12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    zangtype13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    zangtype14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    zangtype15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    zangtype16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    zangtype17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    zangtype18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    zangtype19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    zangtype20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    zangtype21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    zangtype22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    zangtype23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    zangtype24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    zangtype25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    zangtype26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    zangtype27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    zangtype28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    zangtype29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    zangtype30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    zangtype31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    zangtype32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    zangtype33.Value=0
+  end
 end
 function CETrainer_HardClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('BossDifficulty')
-  local mrBR=AddressList.getMemoryRecordByDescription('BossRushBossDifficulty')
-  mr.Value=1
-  mrBR.Value=1
+  if(saveslot.Value=="0") then
+    bossdif.Value=1
+  end
+  if(saveslot.Value=="1") then
+    bossdif2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    bossdif3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    bossdif4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    bossdif5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    bossdif6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    bossdif7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    bossdif8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    bossdif9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    bossdif10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    bossdif11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    bossdif12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    bossdif13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    bossdif14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    bossdif15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    bossdif16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    bossdif17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    bossdif18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    bossdif19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    bossdif20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    bossdif21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    bossdif22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    bossdif23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    bossdif24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    bossdif25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    bossdif26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    bossdif27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    bossdif28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    bossdif29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    bossdif30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    bossdif31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    bossdif32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    bossdif33.Value=1
+  end
 end
 function CETrainer_NormalClick(sender)
-  local mr=AddressList.getMemoryRecordByDescription('BossDifficulty')
-  local mrBR=AddressList.getMemoryRecordByDescription('BossRushBossDifficulty')
-  mr.Value=0
-  mrBR.Value=0
+  if(saveslot.Value=="0") then
+    bossdif.Value=0
+  end
+  if(saveslot.Value=="1") then
+    bossdif2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    bossdif3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    bossdif4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    bossdif5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    bossdif6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    bossdif7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    bossdif8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    bossdif9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    bossdif10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    bossdif11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    bossdif12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    bossdif13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    bossdif14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    bossdif15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    bossdif16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    bossdif17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    bossdif18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    bossdif19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    bossdif20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    bossdif21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    bossdif22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    bossdif23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    bossdif24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    bossdif25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    bossdif26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    bossdif27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    bossdif28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    bossdif29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    bossdif30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    bossdif31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    bossdif32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    bossdif33.Value=0
+  end
 end
 function CETrainer_LegendClick(sender)
   if(saveslot.Value=="0") then
@@ -7965,6 +8446,12 @@ function CETrainer_MapsClick(sender)
 end
 function CETrainer_ScriptClick(sender)
   shellExecute('https://github.com/CptBrian/Misc/blob/master/COTM2TrainerScript.lua')
+end
+function CETrainer_TwitchClick(sender)
+  shellExecute('https://www.twitch.tv/CptBrian')
+end
+function CETrainer_YouTubeClick(sender)
+  shellExecute('https://www.youtube.com/CptBrian')
 end
 
 function CETrainer_ZClick(sender)
@@ -8776,6 +9263,209 @@ function CETrainer_SClick(sender)
   end
 end
 
+function CETrainer_SoulEraserLockClick(sender)
+  if(saveslot.Value=="0") then
+    souleraser.Value=0
+  end
+  if(saveslot.Value=="1") then
+    souleraser2.Value=0
+  end
+  if(saveslot.Value=="2") then
+    souleraser3.Value=0
+  end
+  if(saveslot.Value=="3") then
+    souleraser4.Value=0
+  end
+  if(saveslot.Value=="4") then
+    souleraser5.Value=0
+  end
+  if(saveslot.Value=="5") then
+    souleraser6.Value=0
+  end
+  if(saveslot.Value=="6") then
+    souleraser7.Value=0
+  end
+  if(saveslot.Value=="7") then
+    souleraser8.Value=0
+  end
+  if(saveslot.Value=="8") then
+    souleraser9.Value=0
+  end
+  if(saveslot.Value=="9") then
+    souleraser10.Value=0
+  end
+  if(saveslot.Value=="10") then
+    souleraser11.Value=0
+  end
+  if(saveslot.Value=="11") then
+    souleraser12.Value=0
+  end
+  if(saveslot.Value=="12") then
+    souleraser13.Value=0
+  end
+  if(saveslot.Value=="13") then
+    souleraser14.Value=0
+  end
+  if(saveslot.Value=="14") then
+    souleraser15.Value=0
+  end
+  if(saveslot.Value=="15") then
+    souleraser16.Value=0
+  end
+  if(saveslot.Value=="16") then
+    souleraser17.Value=0
+  end
+  if(saveslot.Value=="17") then
+    souleraser18.Value=0
+  end
+  if(saveslot.Value=="18") then
+    souleraser19.Value=0
+  end
+  if(saveslot.Value=="19") then
+    souleraser20.Value=0
+  end
+  if(saveslot.Value=="20") then
+    souleraser21.Value=0
+  end
+  if(saveslot.Value=="21") then
+    souleraser22.Value=0
+  end
+  if(saveslot.Value=="22") then
+    souleraser23.Value=0
+  end
+  if(saveslot.Value=="23") then
+    souleraser24.Value=0
+  end
+  if(saveslot.Value=="24") then
+    souleraser25.Value=0
+  end
+  if(saveslot.Value=="25") then
+    souleraser26.Value=0
+  end
+  if(saveslot.Value=="26") then
+    souleraser27.Value=0
+  end
+  if(saveslot.Value=="27") then
+    souleraser28.Value=0
+  end
+  if(saveslot.Value=="28") then
+    souleraser29.Value=0
+  end
+  if(saveslot.Value=="29") then
+    souleraser30.Value=0
+  end
+  if(saveslot.Value=="30") then
+    souleraser31.Value=0
+  end
+  if(saveslot.Value=="31") then
+    souleraser32.Value=0
+  end
+  if(saveslot.Value=="32") then
+    souleraser33.Value=0
+  end
+end
+function CETrainer_SoulEraserUnlockClick(sender)
+  if(saveslot.Value=="0") then
+    souleraser.Value=1
+  end
+  if(saveslot.Value=="1") then
+    souleraser2.Value=1
+  end
+  if(saveslot.Value=="2") then
+    souleraser3.Value=1
+  end
+  if(saveslot.Value=="3") then
+    souleraser4.Value=1
+  end
+  if(saveslot.Value=="4") then
+    souleraser5.Value=1
+  end
+  if(saveslot.Value=="5") then
+    souleraser6.Value=1
+  end
+  if(saveslot.Value=="6") then
+    souleraser7.Value=1
+  end
+  if(saveslot.Value=="7") then
+    souleraser8.Value=1
+  end
+  if(saveslot.Value=="8") then
+    souleraser9.Value=1
+  end
+  if(saveslot.Value=="9") then
+    souleraser10.Value=1
+  end
+  if(saveslot.Value=="10") then
+    souleraser11.Value=1
+  end
+  if(saveslot.Value=="11") then
+    souleraser12.Value=1
+  end
+  if(saveslot.Value=="12") then
+    souleraser13.Value=1
+  end
+  if(saveslot.Value=="13") then
+    souleraser14.Value=1
+  end
+  if(saveslot.Value=="14") then
+    souleraser15.Value=1
+  end
+  if(saveslot.Value=="15") then
+    souleraser16.Value=1
+  end
+  if(saveslot.Value=="16") then
+    souleraser17.Value=1
+  end
+  if(saveslot.Value=="17") then
+    souleraser18.Value=1
+  end
+  if(saveslot.Value=="18") then
+    souleraser19.Value=1
+  end
+  if(saveslot.Value=="19") then
+    souleraser20.Value=1
+  end
+  if(saveslot.Value=="20") then
+    souleraser21.Value=1
+  end
+  if(saveslot.Value=="21") then
+    souleraser22.Value=1
+  end
+  if(saveslot.Value=="22") then
+    souleraser23.Value=1
+  end
+  if(saveslot.Value=="23") then
+    souleraser24.Value=1
+  end
+  if(saveslot.Value=="24") then
+    souleraser25.Value=1
+  end
+  if(saveslot.Value=="25") then
+    souleraser26.Value=1
+  end
+  if(saveslot.Value=="26") then
+    souleraser27.Value=1
+  end
+  if(saveslot.Value=="27") then
+    souleraser28.Value=1
+  end
+  if(saveslot.Value=="28") then
+    souleraser29.Value=1
+  end
+  if(saveslot.Value=="29") then
+    souleraser30.Value=1
+  end
+  if(saveslot.Value=="30") then
+    souleraser31.Value=1
+  end
+  if(saveslot.Value=="31") then
+    souleraser32.Value=1
+  end
+  if(saveslot.Value=="32") then
+    souleraser33.Value=1
+  end
+end
+
 function CETrainer_SaveCheckpointClick(sender)
   local FoundX=AddressList.getMemoryRecordByDescription('PlayerX1')
   local FoundY=AddressList.getMemoryRecordByDescription('PlayerY1')
@@ -8836,6 +9526,43 @@ function CETrainer_CETimer4Timer(sender)
   local memrec=addresslist_getMemoryRecordByDescription(getAddressList(), "BossRushProgress")
   local value=memoryrecord_getValue(memrec)
   control_setCaption(CETrainer_BossRushProgressLabel, value)
+end
+function CETrainer_hachi1Click(sender)
+  CETrainer_hachi2.Visible=true
+  CETrainer_hachi1.Visible=false
+  sleep(80)
+  CETrainer_hachi3.Visible=true
+  CETrainer_hachi2.Visible=false
+  sleep(80)
+  CETrainer_hachi2.Visible=true
+  CETrainer_hachi3.Visible=false
+  sleep(80)
+  CETrainer_hachi3.Visible=true
+  CETrainer_hachi2.Visible=false
+  sleep(80)
+  CETrainer_hachi2.Visible=true
+  CETrainer_hachi3.Visible=false
+  sleep(80)
+  CETrainer_hachi1.Visible=true
+  CETrainer_hachi2.Visible=false
+  sleep(80)
+  CETrainer_hachi2.Visible=true
+  CETrainer_hachi1.Visible=false
+  sleep(80)
+  CETrainer_hachi1.Visible=true
+  CETrainer_hachi2.Visible=false
+  sleep(80)
+  CETrainer_hachi2.Visible=true
+  CETrainer_hachi1.Visible=false
+  sleep(80)
+  CETrainer_hachi3.Visible=true
+  CETrainer_hachi2.Visible=false
+  sleep(80)
+  CETrainer_hachi2.Visible=true
+  CETrainer_hachi3.Visible=false
+  sleep(80)
+  CETrainer_hachi1.Visible=true
+  CETrainer_hachi2.Visible=false
 end
 function CETrainer_StyleImagesTimer(sender)
   if(saveslot.Value=="0") then
@@ -9631,6 +10358,802 @@ function CETrainer_StyleImagesTimer(sender)
     end
   end
 end
+function CETrainer_BossDifficultyImagesTimer(sender)
+  if(saveslot.Value=="0") then
+    if(bossdif.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="1") then
+    if(bossdif2.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif2.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="2") then
+    if(bossdif3.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif3.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="3") then
+    if(bossdif4.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif4.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="4") then
+    if(bossdif5.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif5.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="5") then
+    if(bossdif6.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif6.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="6") then
+    if(bossdif7.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif7.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="7") then
+    if(bossdif8.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif8.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="8") then
+    if(bossdif9.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif9.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="9") then
+    if(bossdif10.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif10.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="10") then
+    if(bossdif11.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif11.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="11") then
+    if(bossdif12.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif12.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="12") then
+    if(bossdif13.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif13.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="13") then
+    if(bossdif14.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif14.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="14") then
+    if(bossdif15.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif15.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="15") then
+    if(bossdif16.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif16.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="16") then
+    if(bossdif17.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif17.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="17") then
+    if(bossdif18.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif18.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="18") then
+    if(bossdif19.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif19.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="19") then
+    if(bossdif20.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif20.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="20") then
+    if(bossdif21.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif21.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="21") then
+    if(bossdif22.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif22.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="22") then
+    if(bossdif23.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif23.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="23") then
+    if(bossdif24.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif24.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="24") then
+    if(bossdif25.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif25.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="25") then
+    if(bossdif26.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif26.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="26") then
+    if(bossdif27.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif27.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="27") then
+    if(bossdif28.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif28.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="28") then
+    if(bossdif29.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif29.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="29") then
+    if(bossdif30.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif30.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="30") then
+    if(bossdif31.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif31.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="31") then
+    if(bossdif32.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif32.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+  if(saveslot.Value=="32") then
+    if(bossdif33.Value=="0") then
+      CETrainer_bossnormal.Visible=true
+      CETrainer_bosshard.Visible=false
+    elseif(bossdif33.Value=="1") then
+      CETrainer_bossnormal.Visible=false
+      CETrainer_bosshard.Visible=true
+    end
+  end
+end
+function CETrainer_ZangTypeImagesTimer(sender)
+  if(saveslot.Value=="0") then
+    if(zangtype.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="1") then
+    if(zangtype2.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype2.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype2.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="2") then
+    if(zangtype3.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype3.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype3.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="3") then
+    if(zangtype4.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype4.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype4.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="4") then
+    if(zangtype5.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype5.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype5.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="5") then
+    if(zangtype6.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype6.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype6.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="6") then
+    if(zangtype7.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype7.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype7.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="7") then
+    if(zangtype8.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype8.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype8.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="8") then
+    if(zangtype9.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype9.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype9.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="9") then
+    if(zangtype10.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype10.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype10.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="10") then
+    if(zangtype11.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype11.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype11.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="11") then
+    if(zangtype12.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype12.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype12.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="12") then
+    if(zangtype13.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype13.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype13.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="13") then
+    if(zangtype14.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype14.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype14.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="14") then
+    if(zangtype15.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype15.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype15.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="15") then
+    if(zangtype16.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype16.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype16.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="16") then
+    if(zangtype17.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype17.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype17.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="17") then
+    if(zangtype18.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype18.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype18.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="18") then
+    if(zangtype19.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype19.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype19.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="19") then
+    if(zangtype20.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype20.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype20.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="20") then
+    if(zangtype21.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype21.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype21.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="21") then
+    if(zangtype22.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype22.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype22.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="22") then
+    if(zangtype23.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype23.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype23.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="23") then
+    if(zangtype24.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype24.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype24.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="24") then
+    if(zangtype25.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype25.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype25.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="25") then
+    if(zangtype26.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype26.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype26.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="26") then
+    if(zangtype27.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype27.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype27.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="27") then
+    if(zangtype28.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype28.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype28.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="28") then
+    if(zangtype29.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype29.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype29.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="29") then
+    if(zangtype30.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype30.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype30.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="30") then
+    if(zangtype31.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype31.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype31.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="31") then
+    if(zangtype32.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype32.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype32.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+  if(saveslot.Value=="32") then
+    if(zangtype33.Value=="0") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=true
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype33.Value=="1") then
+      CETrainer_statictypeimg.Visible=true
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=false
+    elseif(zangtype33.Value=="2") then
+      CETrainer_statictypeimg.Visible=false
+      CETrainer_normaltypeimg.Visible=false
+      CETrainer_ultimatetypeimg.Visible=true
+    end
+  end
+end
 --[[
 function CETrainer_CETimer6Timer(sender)
   local TimerCurrentCharacter=AddressList.getMemoryRecordByDescription('Current Character')
@@ -9802,6 +11325,17 @@ end
 function CETrainer_SpeedHackClick(sender)
   speedhack_setSpeed(tonumber(getProperty(CETrainer_EditSpeedHack,"Text")))
   --speedhack_setSpeed'0.5'
+end
+
+function CETrainer_TractionClick(sender)
+  writeFloat("[game.exe+9F6344]+248", getProperty(CETrainer_EditTraction,"Text"))
+end
+function CETrainer_GravityClick(sender)
+  writeFloat("[game.exe+9F6344]+24C", getProperty(CETrainer_EditGravity,"Text"))
+end
+function CETrainer_PlayerSizeClick(sender)
+  writeFloat("[game.exe+9F6344]+1CC", getProperty(CETrainer_EditPlayerSize,"Text"))
+  writeFloat("[game.exe+9F6344]+1D0", getProperty(CETrainer_EditPlayerSize,"Text"))
 end
 
 --createHotkey(HPFreezeClick, VK_CONTROL, VK_KEY_1)
@@ -10473,6 +12007,105 @@ savailable30=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable S
 savailable31=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 31')
 savailable32=AddressList.getMemoryRecordByDescription('ShadowZangetsuAvailable Slot 32')
 savailable33=AddressList.getMemoryRecordByDescription('Shadow Zangetsu Available BR')
+bossdif=AddressList.getMemoryRecordByDescription('BossDifficulty')
+bossdif2=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 2')
+bossdif3=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 3')
+bossdif4=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 4')
+bossdif5=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 5')
+bossdif6=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 6')
+bossdif7=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 7')
+bossdif8=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 8')
+bossdif9=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 9')
+bossdif10=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 10')
+bossdif11=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 11')
+bossdif12=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 12')
+bossdif13=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 13')
+bossdif14=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 14')
+bossdif15=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 15')
+bossdif16=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 16')
+bossdif17=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 17')
+bossdif18=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 18')
+bossdif19=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 19')
+bossdif20=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 20')
+bossdif21=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 21')
+bossdif22=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 22')
+bossdif23=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 23')
+bossdif24=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 24')
+bossdif25=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 25')
+bossdif26=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 26')
+bossdif27=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 27')
+bossdif28=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 28')
+bossdif29=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 29')
+bossdif30=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 30')
+bossdif31=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 31')
+bossdif32=AddressList.getMemoryRecordByDescription('BossDifficulty Slot 32')
+bossdif33=AddressList.getMemoryRecordByDescription('BossRushBossDifficulty')
+zangtype=AddressList.getMemoryRecordByDescription('ZangetsuType')
+zangtype2=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 2')
+zangtype3=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 3')
+zangtype4=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 4')
+zangtype5=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 5')
+zangtype6=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 6')
+zangtype7=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 7')
+zangtype8=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 8')
+zangtype9=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 9')
+zangtype10=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 10')
+zangtype11=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 11')
+zangtype12=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 12')
+zangtype13=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 13')
+zangtype14=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 14')
+zangtype15=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 15')
+zangtype16=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 16')
+zangtype17=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 17')
+zangtype18=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 18')
+zangtype19=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 19')
+zangtype20=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 20')
+zangtype21=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 21')
+zangtype22=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 22')
+zangtype23=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 23')
+zangtype24=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 24')
+zangtype25=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 25')
+zangtype26=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 26')
+zangtype27=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 27')
+zangtype28=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 28')
+zangtype29=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 29')
+zangtype30=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 30')
+zangtype31=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 31')
+zangtype32=AddressList.getMemoryRecordByDescription('ZangetsuType Slot 32')
+zangtype33=AddressList.getMemoryRecordByDescription('Zangetsu Type BR')
+souleraser=AddressList.getMemoryRecordByDescription('SoulEraser')
+souleraser2=AddressList.getMemoryRecordByDescription('SoulEraser Slot 2')
+souleraser3=AddressList.getMemoryRecordByDescription('SoulEraser Slot 3')
+souleraser4=AddressList.getMemoryRecordByDescription('SoulEraser Slot 4')
+souleraser5=AddressList.getMemoryRecordByDescription('SoulEraser Slot 5')
+souleraser6=AddressList.getMemoryRecordByDescription('SoulEraser Slot 6')
+souleraser7=AddressList.getMemoryRecordByDescription('SoulEraser Slot 7')
+souleraser8=AddressList.getMemoryRecordByDescription('SoulEraser Slot 8')
+souleraser9=AddressList.getMemoryRecordByDescription('SoulEraser Slot 9')
+souleraser10=AddressList.getMemoryRecordByDescription('SoulEraser Slot 10')
+souleraser11=AddressList.getMemoryRecordByDescription('SoulEraser Slot 11')
+souleraser12=AddressList.getMemoryRecordByDescription('SoulEraser Slot 12')
+souleraser13=AddressList.getMemoryRecordByDescription('SoulEraser Slot 13')
+souleraser14=AddressList.getMemoryRecordByDescription('SoulEraser Slot 14')
+souleraser15=AddressList.getMemoryRecordByDescription('SoulEraser Slot 15')
+souleraser16=AddressList.getMemoryRecordByDescription('SoulEraser Slot 16')
+souleraser17=AddressList.getMemoryRecordByDescription('SoulEraser Slot 17')
+souleraser18=AddressList.getMemoryRecordByDescription('SoulEraser Slot 18')
+souleraser19=AddressList.getMemoryRecordByDescription('SoulEraser Slot 19')
+souleraser20=AddressList.getMemoryRecordByDescription('SoulEraser Slot 20')
+souleraser21=AddressList.getMemoryRecordByDescription('SoulEraser Slot 21')
+souleraser22=AddressList.getMemoryRecordByDescription('SoulEraser Slot 22')
+souleraser23=AddressList.getMemoryRecordByDescription('SoulEraser Slot 23')
+souleraser24=AddressList.getMemoryRecordByDescription('SoulEraser Slot 24')
+souleraser25=AddressList.getMemoryRecordByDescription('SoulEraser Slot 25')
+souleraser26=AddressList.getMemoryRecordByDescription('SoulEraser Slot 26')
+souleraser27=AddressList.getMemoryRecordByDescription('SoulEraser Slot 27')
+souleraser28=AddressList.getMemoryRecordByDescription('SoulEraser Slot 28')
+souleraser29=AddressList.getMemoryRecordByDescription('SoulEraser Slot 29')
+souleraser30=AddressList.getMemoryRecordByDescription('SoulEraser Slot 30')
+souleraser31=AddressList.getMemoryRecordByDescription('SoulEraser Slot 31')
+souleraser32=AddressList.getMemoryRecordByDescription('SoulEraser Slot 32')
+souleraser33=AddressList.getMemoryRecordByDescription('Soul Eraser BR')
 
 getAutoAttachList().add("game.exe")
 gPlaySoundOnAction=false
