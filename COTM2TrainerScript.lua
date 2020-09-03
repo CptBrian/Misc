@@ -19,9 +19,6 @@
 --createHotkey(function, virtualkeycode) --Create hotkey for things
 --Check defines.lua for the VK_* codes^
 
---setGlobalKeyPollInterval(50)
---setGlobalDelayBetweenHotkeyActivation(300)
-
 function CETrainer_BnCClick(sender)
   if(saveslot.Value=="0") then
     writeBytes("[game.exe+9F608C]+340", 1)
@@ -6580,6 +6577,9 @@ function CETrainer_CustomHPClick(sender)
   writeInteger("[[[[[[[game.exe+0048365C]+8]+6C]+20]+170]+1C]+88]+3DC", getProperty(CETrainer_EditHP,"Text")) --Health
 end
 function CETrainer_CustomBossHPClick(sender)
+  if(getProperty(CETrainer_EditBossHP,"Text")=="") then
+    return --Does nothing if the field is blank
+  end
   local memrec=addresslist_getMemoryRecordByDescription(getAddressList(), "BossHP")
   local memrec2=addresslist_getMemoryRecordByDescription(getAddressList(), "BossHP2")
   local value=memoryrecord_getValue(memrec)
@@ -6590,6 +6590,9 @@ function CETrainer_CustomBossHPClick(sender)
   end
 end
 function CETrainer_CustomWPClick(sender)
+  if(getProperty(CETrainer_EditWP,"Text")=="") then
+    return --Does nothing if the field is blank
+  end
   if(saveslot.Value=="0") then
     writeBytes("[game.exe+9F608C]+338", getProperty(CETrainer_EditWP,"Text"))
   end
@@ -6691,6 +6694,9 @@ function CETrainer_CustomWPClick(sender)
   end
 end
 function CETrainer_MaxWPClick(sender)
+  if(getProperty(CETrainer_EditMaxWP,"Text")=="") then
+    return --Does nothing if the field is blank
+  end
   if(saveslot.Value=="0") then
     writeBytes("[game.exe+9F608C]+33C", getProperty(CETrainer_EditMaxWP,"Text"))
   end
@@ -6792,6 +6798,9 @@ function CETrainer_MaxWPClick(sender)
   end
 end
 function CETrainer_BossRushProgressClick(sender)
+  if(getProperty(CETrainer_BossRushEdit,"Text")=="") then
+    return --Does nothing if the field is blank
+  end
   writeBytes("[game.exe+9F618C]+FF8", getProperty(CETrainer_BossRushEdit,"Text"))
 end
 function CETrainer_UnlockStagesClick(sender)
@@ -9479,6 +9488,9 @@ function CETrainer_SaveCheckpointClick(sender)
   setProperty(CETrainer_CheckpointYEdit,"Text",FoundY.Value)
 end
 function CETrainer_LoadCheckpointClick(sender)
+  if(getProperty(CETrainer_CheckpointXEdit,"Text")=="" or getProperty(CETrainer_CheckpointYEdit,"Text")=="") then
+    return --Does nothing if either of the X/Y fields are blank
+  end
   local mrX=AddressList.getMemoryRecordByDescription('PlayerX1')
   local mrY=AddressList.getMemoryRecordByDescription('PlayerY1')
   local mrXAlt=AddressList.getMemoryRecordByDescription('PlayerX2')
@@ -11026,24 +11038,37 @@ function CETrainer_CamZDownClick(sender)
 end
 
 function CETrainer_SpeedHackClick(sender)
-  speedhack_setSpeed(tonumber(getProperty(CETrainer_EditSpeedHack,"Text")))
-  --speedhack_setSpeed'0.5'
+  if(getProperty(CETrainer_EditSpeedHack,"Text")=="") then
+    return --Does nothing if the field is blank
+  end
+  if(currentspeed~=getProperty(CETrainer_EditSpeedHack,"Text")) then
+    speedhack_setSpeed(tonumber(getProperty(CETrainer_EditSpeedHack,"Text")))
+    currentspeed=getProperty(CETrainer_EditSpeedHack,"Text")
+  else
+    speedhack_setSpeed'1.0' --official value used for "disabling" to 100%
+    currentspeed=1.0
+  end
 end
 
 function CETrainer_TractionClick(sender)
+  if(getProperty(CETrainer_EditTraction,"Text")=="") then
+    return --Does nothing if the field is blank
+  end
   writeFloat("[game.exe+9F6344]+248", getProperty(CETrainer_EditTraction,"Text"))
 end
 function CETrainer_GravityClick(sender)
+  if(getProperty(CETrainer_EditGravity,"Text")=="") then
+    return --Does nothing if the field is blank
+  end
   writeFloat("[game.exe+9F6344]+24C", getProperty(CETrainer_EditGravity,"Text"))
 end
 function CETrainer_PlayerSizeClick(sender)
+  if(getProperty(CETrainer_EditPlayerSize,"Text")=="") then
+    return --Does nothing if the field is blank
+  end
   writeFloat("[game.exe+9F6344]+1CC", getProperty(CETrainer_EditPlayerSize,"Text"))
   writeFloat("[game.exe+9F6344]+1D0", getProperty(CETrainer_EditPlayerSize,"Text"))
 end
-
---createHotkey(HPFreezeClick, VK_CONTROL, VK_KEY_1)
---createHotkey(WPFreezeClick, VK_SHIFT, VK_KEY_2)
---createHotkey(CharacterFreezeClick, VK_SHIFT, VK_KEY_3)
 
 --Uncomment the following line if this is a Cheat Table format trainer and you don't want CE to show (Tip, save as .CETRAINER alternatively)
 --hideAllCEWindows()
@@ -11809,6 +11834,7 @@ souleraser30=AddressList.getMemoryRecordByDescription('SoulEraser Slot 30')
 souleraser31=AddressList.getMemoryRecordByDescription('SoulEraser Slot 31')
 souleraser32=AddressList.getMemoryRecordByDescription('SoulEraser Slot 32')
 souleraser33=AddressList.getMemoryRecordByDescription('Soul Eraser BR')
+currentspeed=1.0
 
 getAutoAttachList().add("game.exe")
 gPlaySoundOnAction=false
@@ -11823,3 +11849,15 @@ function CloseClick()
   closeCE()
   return caFree --onClick doesn't care, but onClose would like a result
 end
+
+--createHotkey(CETrainer_HPFreezeClick, VK_CONTROL, VK_KEY_1) --example of Ctrl combo being required
+--createHotkey(CETrainer_UnlimitedWPClick, VK_SHIFT, VK_KEY_2) --example of Shift combo being required
+setGlobalKeyPollInterval(25)
+setGlobalDelayBetweenHotkeyActivation(250)
+createHotkey(CETrainer_SaveCheckpointClick, VK_F1)
+createHotkey(CETrainer_LoadCheckpointClick, VK_F4)
+createHotkey(CETrainer_RoomReloadClick, VK_F5)
+createHotkey(CETrainer_SpeedHackClick, VK_F8)
+
+--Cheat Engine likes to throw errors for L I T E R A L L Y no reason, so if you know everything is right,
+--save & restart CE every once in a while to see if it fixes that bullshit error. This has happened multiple times, wasting hours.
