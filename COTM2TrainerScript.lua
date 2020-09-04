@@ -11858,6 +11858,10 @@ createHotkey(CETrainer_SaveCheckpointClick, VK_F1)
 createHotkey(CETrainer_LoadCheckpointClick, VK_F4)
 createHotkey(CETrainer_RoomReloadClick, VK_F5)
 createHotkey(CETrainer_SpeedHackClick, VK_F8)
+createHotkey(CETrainer_CustomWPClick, VK_F9)
+createHotkey(CETrainer_FillMaxWPClick, VK_SHIFT, VK_F9)
+createHotkey(CETrainer_BossRushProgressClick, VK_F12)
+createHotkey(CETrainer_CustomBossHPClick, VK_SHIFT, VK_F12)
 
 --Cheat Engine likes to throw errors for L I T E R A L L Y no reason, so if you know everything is right,
 --save & restart CE every once in a while to see if it fixes that bullshit error. This has happened multiple times, wasting hours.
