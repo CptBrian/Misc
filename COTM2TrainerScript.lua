@@ -6568,7 +6568,7 @@ function CETrainer_RoomReloadClick(sender)
   mr.Value=4 --Starts room reload
   sleep(400) --Necessary duration to prevent breaking the game when setting next value
   mr.Value=8 --Necessary to prevent endless looping in Boss Rush
-  sleep(450) --To prevent user from breaking the game with early reloads
+  sleep(500) --To prevent user from breaking the game with early reloads
   --Still breaks sometimes when using it during cutscenes
 end
 
@@ -11853,7 +11853,7 @@ end
 --createHotkey(CETrainer_HPFreezeClick, VK_CONTROL, VK_KEY_1) --example of Ctrl combo being required
 --createHotkey(CETrainer_UnlimitedWPClick, VK_SHIFT, VK_KEY_2) --example of Shift combo being required
 setGlobalKeyPollInterval(25)
-setGlobalDelayBetweenHotkeyActivation(250)
+setGlobalDelayBetweenHotkeyActivation(200)
 createHotkey(CETrainer_SaveCheckpointClick, VK_F1)
 createHotkey(CETrainer_LoadCheckpointClick, VK_F4)
 createHotkey(CETrainer_RoomReloadClick, VK_F5)
